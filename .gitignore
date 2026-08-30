@@ -1,0 +1,12 @@
+# Source material — copyrighted third-party tests, keys, and slide decks.
+# Kept locally for curriculum development; never committed (this repo is public).
+raw/
+planning/
+*.pptx
+*.pdf
+*.docx
+*.dmg
+*.xlsx
+
+.DS_Store
+**/.DS_Store
