@@ -27,20 +27,20 @@ assumes.
 
 | # | Session | What's new vs. year 1 |
 |---|---|---|
-| 1 | What the Judges Actually Score | Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial, and how the analysis report is scored point-by-point |
-| 2 | Qualitative Analysis I — The Workflow | a repeatable powder-testing sequence; building and running a dichotomous key |
-| 3 | Qualitative Analysis II — The Chemistry | chemical formulas on demand; *why* each test works (starch–iodine, carbonate fizz, reducing-sugar tests); the harder powders |
-| 4 | Qualitative Analysis III — Mixtures & Equations | separating mixtures; writing and balancing reactions; first look at moles and mass |
-| 5 | Liquids & pH | liquid ID and formulas; "potential hydrogen"; the acid/base scale; HCl safety |
-| 6 | Metals | density calculation and unit conversion; atomic number; reaction types; oxide layers; alloys; magnetism |
+| 1 | [What the Judges Actually Score](Session_01_What_The_Judges_Actually_Score.md) | Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial, and how the analysis report is scored point-by-point |
+| 2 | [Qualitative Analysis I — The Workflow](Session_02_Qualitative_Analysis_I_The_Workflow.md) | a repeatable powder-testing sequence; building and running a dichotomous key |
+| 3 | [Qualitative Analysis II — The Chemistry](Session_03_Qualitative_Analysis_II_The_Chemistry.md) | chemical formulas on demand; *why* each test works (starch–iodine, carbonate fizz, reducing-sugar tests); the harder powders |
+| 4 | [Qualitative Analysis III — Mixtures & Equations](Session_04_Qualitative_Analysis_III_Mixtures_And_Equations.md) | separating mixtures; writing and balancing reactions; first look at moles and mass |
+| 5 | [Liquids & pH](Session_05_Liquids_And_pH.md) | liquid ID and formulas; "potential hydrogen"; the acid/base scale; HCl safety |
+| 6 | [Metals](Session_06_Metals.md) | density calculation and unit conversion; atomic number; reaction types; oxide layers; alloys; magnetism |
 | — | **Practice Test 1** + answer review | first full timed test; teach the answer-review routine |
-| 7 | Hair & DNA Evidence | growth phases; the medullary-index calculation; roots; the poisoning timeline; reading a gel for band matches |
-| 8 | Fibers & Chromatography | the burn-test flow chart as a procedure; naming specific synthetics; Rf, phases, and the history of the method |
-| 9 | Plastics | thermoset vs. thermoplastic; resin codes and uses; building a density-column ladder; polycarbonate; the Bakelite story |
-| 10 | Blood | ABO/Rh typing from an agglutination grid; donor/recipient; parental crosses; blood chemistry; presumptive tests |
+| 7 | [Hair & DNA Evidence](Session_07_Hair_And_DNA_Evidence.md) | growth phases; the medullary-index calculation; roots; the poisoning timeline; reading a gel for band matches |
+| 8 | [Fibers & Chromatography](Session_08_Fibers_And_Chromatography.md) | the burn-test flow chart as a procedure; naming specific synthetics; Rf, phases, and the history of the method |
+| 9 | [Plastics](Session_09_Plastics.md) | thermoset vs. thermoplastic; resin codes and uses; building a density-column ladder; polycarbonate; the Bakelite story |
+| 10 | [Blood](Session_10_Blood.md) | ABO/Rh typing from an agglutination grid; donor/recipient; parental crosses; blood chemistry; presumptive tests |
 | — | **Practice Test 2** + answer review | mid-season checkpoint |
-| 11 | Blood Spatter & Glass | angle of impact by calculation; convergence and origin; velocity classes; radial/concentric/cone glass fracture; impact sequencing |
-| 12 | Soil, Impressions & Advanced Prints | the soil texture triangle; particle size and color; shoe/tire class vs. individual characteristics; the full IAFIS pattern set; AFIS/CODIS/NCIC |
+| 11 | [Blood Spatter & Glass](Session_11_Blood_Spatter_And_Glass.md) | angle of impact by calculation; convergence and origin; velocity classes; radial/concentric/cone glass fracture; impact sequencing |
+| 12 | [Soil, Impressions & Advanced Prints](Session_12_Soil_Impressions_And_Advanced_Prints.md) | the soil texture triangle; particle size and color; shoe/tire class vs. individual characteristics; the full IAFIS pattern set; AFIS/CODIS/NCIC |
 | — | **Practice Test 3** (final timed dry run) + review | last practice before competition |
 
 See [`../practice_tests/README.md`](../practice_tests/README.md) for how to run

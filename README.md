@@ -33,13 +33,18 @@ a two-track **homework** set for each.
 
 ```
 curriculum/
-├── Crime_Busters_Knowledge_Document.md   ← the reference spine: every topic, at test depth
-├── sessions/        ← 12 full coach scripts (90 min each), one per practice
-├── quizzes/         ← one standalone review quiz per teaching session
-├── homework/        ← one take-home per session: a paper track + a home-lab track
-├── home_labs/       ← the home-lab program: safety agreement, kit contents, lab cards
-└── practice_tests/  ← how to run the 3 practice-test sessions + an answer-review guide
+├── Crime_Busters_Knowledge_Document.md   ← the reference spine: 18 chapters + 6 appendices, at test depth
+├── sessions/        ← 12 full coach scripts (90 min each) + the session index
+├── quizzes/         ← Quiz_01–12: one standalone review quiz per teaching session
+├── homework/        ← Homework_01–12: paper track (all sessions) + home-lab track (most)
+├── home_labs/       ← Home_Lab_Safety_Agreement, Kit_Assembly_Guide, Lab_02–12 cards
+└── practice_tests/  ← How_To_Run_A_Practice_Test, Answer_Review_Guide, Analysis_Report_Rubric
 ```
+
+Start with [`curriculum/sessions/README.md`](curriculum/sessions/README.md) for
+the season plan, and keep
+[`curriculum/Crime_Busters_Knowledge_Document.md`](curriculum/Crime_Busters_Knowledge_Document.md)
+open as the reference.
 
 Everything the curriculum was built and cross-checked from — real invitational
 tests, answer keys, and topic slide decks — is **not** in this repo. It is
