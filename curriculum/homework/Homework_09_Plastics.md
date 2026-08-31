@@ -12,7 +12,8 @@ saturated salt water 1.20 · corn syrup 1.33.
 For each result, give the density **bracket** and name the plastic (use the burn
 result if given):
 1. Floats in veg oil, sinks in isopropyl.
-2. Floats in water, sinks in veg oil.
+2. Floats in water, sinks in veg oil. Squeeze test: soft and stretchy and fairly
+   clear.
 3. Sinks in water, floats in saturated salt water. Burn: dense black sooty smoke,
    styrene smell.
 4. Sinks in saturated salt water, floats in corn syrup. Burn: self-extinguishes,
@@ -46,8 +47,9 @@ and which suspect does it implicate?
 
 **Part A:**
 1. Between 0.79 and 0.92 → **PP** (0.90–0.92).
-2. Between 0.92 and 1.00 → **LDPE** (0.92–0.94). (HDPE is ~0.95, just over
-   water — would sink in water, so #2 is LDPE.)
+2. Between 0.92 and 1.00 → **LDPE** or **HDPE** (both float in water, sink in
+   oil); "soft, stretchy, fairly clear" on the squeeze test → **LDPE** (HDPE is
+   stiff, crinkly, and cloudy).
 3. Between 1.00 and 1.20 → with styrene smell / black soot → **PS**.
 4. Between 1.20 and 1.33 → self-extinguishing, acrid → **PVC**.
 5. Between 1.20 and 1.33 → drink bottle, black smoke, partly self-extinguishing →

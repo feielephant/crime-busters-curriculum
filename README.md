@@ -45,6 +45,9 @@ Start with [`curriculum/sessions/README.md`](curriculum/sessions/README.md) for
 the season plan, and keep
 [`curriculum/Crime_Busters_Knowledge_Document.md`](curriculum/Crime_Busters_Knowledge_Document.md)
 open as the reference.
+[`curriculum/Test_Coverage_Map.md`](curriculum/Test_Coverage_Map.md) audits the
+curriculum against the official rules and real invitational tests, topic by
+topic.
 
 Everything the curriculum was built and cross-checked from — real invitational
 tests, answer keys, and topic slide decks — is **not** in this repo. It is

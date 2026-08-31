@@ -53,6 +53,14 @@
   to be able to answer by the end of today is: 'Explain why flour turns black in
   iodine.' Not 'it has starch' — the full reason, worth four points."
 
+- **Coach note — the official list.** The rules name exactly **13 solids** that
+  can appear: anhydrous sodium acetate, yeast, vitamin C, calcium carbonate,
+  table salt, sugar, flour, gypsum, cornstarch, baking soda, gelatin,
+  Alka-Seltzer, white sand. Make sure the team knows all 13 cold. Invitationals
+  often add off-list powders (Epsom salt, cream of tartar, citric acid, MSG,
+  washing soda) — we practice those too because the *method* is the same, but the
+  13 are the ones guaranteed to show up.
+
 ---
 
 ### 0:06–0:24 (18 min) — Direct Teaching: The Formulas

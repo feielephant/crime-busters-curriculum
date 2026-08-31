@@ -80,7 +80,12 @@
   **4. Acid** — the vigor ranks Mg > Al > Zn > Fe > Sn > Cu-does-nothing. This is
   a shortened **activity series**.
   **5. Feel** — tin and aluminum are soft; iron is hard; magnesium ribbon bends
-  easily."
+  easily.
+  **6. Flame test** — the supervisor may give you a candle, or just tell you the
+  flame color. Of our six metals, only **copper burns green**. The rest give a
+  weak white-ish flame with no useful color, so you fall back on density, the
+  magnet, and acid. Watch out — a speck of salt turns *any* flame bright yellow,
+  and that's sodium, not your sample."
 
 - **[ACTIVITY: Sort the Knowns]**
   Pass around the labeled known metals. Each kid: hold each one, try the magnet,

@@ -11,6 +11,21 @@ are grounded in the official Division B rules and in what real invitational exam
 have actually asked. Where authoritative sources disagree, the disagreement is
 noted rather than papered over.
 
+> **Scope — core vs. invitational stretch.** The official 2025 rules are narrower
+> than most invitational tests. Officially the event covers only: the **13 listed
+> solids** (anhydrous sodium acetate, yeast, vitamin C, calcium carbonate, table
+> salt, sugar, flour, gypsum, cornstarch, baking soda, gelatin, Alka-Seltzer,
+> white sand), **6 metals** (Al, Fe, Zn, Mg, Cu, Sn), **6 liquids** (lemon juice,
+> isopropyl alcohol, 3% ammonia, water, vinegar, 3% hydrogen peroxide), **7
+> plastics** (PETE, HDPE, non-expanded PS, LDPE, PP, PVC, PMMA), **hair** as
+> human/dog/cat only, **fibers** as animal/vegetable/synthetic only, **prints** as
+> whorl/loop/arch only, and **no calculations** for spatter or tracks.
+> Invitationals routinely go further — specific fiber names, the full IAFIS
+> 8-pattern set, the spatter-angle calculation, polycarbonate, and off-list
+> powders like Epsom salt, cream of tartar, citric acid, MSG, and washing soda.
+> This document teaches the invitational-level version and flags which parts are
+> "stretch." See `Test_Coverage_Map.md` for the full topic-by-topic breakdown.
+
 ---
 
 ## Table of Contents
@@ -263,6 +278,32 @@ S = soluble in water, I = insoluble/suspension, sl = slightly soluble.
 | Sand (silica) | SiO₂ | I | — | — | 7 | gritty; inert to everything |
 | Boric acid | H₃BO₃ | sl | — | — | ~5 | fine white; weak acid; **do not handle at home** |
 
+### Common uses (tests give the "use" as a clue)
+
+Many tests hand you the everyday **use** of a powder as an identification hint,
+or ask "list 2–3 uses of Powder X." Learn these alongside the properties:
+
+| Powder | Common uses |
+|---|---|
+| Baking soda | baking (leavening), antacid, deodorizer, cleaning scrub, fire extinguisher |
+| Sodium carbonate (washing soda) | laundry booster, water softener, glass making, pH raiser |
+| Calcium carbonate | chalk, antacid, cement/building material, paper filler, agricultural lime |
+| Cornstarch | thickening sauces, "oobleck," anti-caking agent, baby powder substitute |
+| Flour | baking, thickening, papier-mâché paste |
+| Table salt | seasoning, food preservation, de-icing roads, water softening |
+| Sugar (sucrose) | sweetener, food preservation, fermentation feedstock |
+| Gypsum | plaster / drywall, casts, blackboard chalk, soil conditioner, tofu coagulant |
+| Epsom salt | bath soak, laxative, plant fertilizer (magnesium) |
+| Cream of tartar | stabilizing egg whites, preventing sugar crystallization, a component of baking powder |
+| Citric acid | sour flavoring, canning/preserving, descaling, "bath bombs" |
+| Vitamin C (ascorbic acid) | dietary supplement / cold remedy, antioxidant food preservative |
+| Sodium acetate | reusable "hot ice" hand warmers, food seasoning (salt & vinegar chips) |
+| Alka-Seltzer | antacid / effervescent pain reliever ("stomach aches") |
+| Gelatin | desserts (jello), gummy candy, capsule shells, food thickener |
+| MSG | savory flavor enhancer |
+| Yeast | leavening bread, brewing/fermentation |
+| Sand (silica) | glass making, concrete, sandpaper/abrasives, sandbags, filtration |
+
 ### Why the iodine test works (this exact question is asked)
 
 Starch is two glucose polymers: **amylose** (long unbranched chains) and
@@ -402,6 +443,28 @@ Identification axes, in the order they're usually decisive:
 4. **Reaction with HCl** — vigor ranks Mg > Al > Zn > Fe > Sn > Cu (none). This
    is the **activity series** in miniature.
 5. **Hardness / feel** — tin and aluminum are soft; iron is hard.
+
+### Flame test (may be provided or performed)
+
+Heating a metal or a metal salt in a flame can give a characteristic color as
+electrons absorb energy and release it as light. The supervisor may provide a
+candle, and some invitationals give the flame color as a clue.
+
+| Element | Flame color |
+|---|---|
+| **Copper** | **green / blue-green** |
+| Sodium (or any Na⁺ contamination, incl. table salt) | intense **yellow-orange** |
+| Potassium | lilac / pale violet |
+| Calcium | orange-red (brick) |
+| Lithium, strontium | red / crimson |
+| Barium | pale/yellow-green |
+| Boron | bright green |
+
+Of the six Crime Busters metals, **only copper's green flame is clearly
+diagnostic.** Magnesium, aluminum, zinc, tin, and iron give a weak or white-ish
+flame with no distinctive color, so you separate those by density, magnetism
+(iron), and acid vigor. Beware: a trace of salt on your hands or tongs turns any
+flame yellow — that's sodium, not the sample.
 
 ### Density calculation (directly tested)
 
@@ -834,7 +897,26 @@ crinkly and stiff = HDPE; soft and stretchy = LDPE.
 - **STRs (short tandem repeats):** short DNA sequences repeated a variable number
   of times at specific **loci**; the number of repeats varies between people.
   Modern profiling counts repeats at ~20 standard loci.
-- **RNA** = ribonucleic acid (single-stranded; uracil replaces thymine).
+- **RNA** = ribonucleic acid (single-stranded; ribose instead of deoxyribose;
+  uracil replaces thymine).
+- **Chromosomes:** humans have **46** (23 pairs) — one of each pair from each
+  parent. In eukaryotic cells DNA is packaged into chromosomes in the nucleus;
+  in bacteria it floats free.
+
+### PCR — polymerase chain reaction (asked as "the 3 stages")
+
+PCR makes millions of copies of a DNA segment so there's enough to see on a gel.
+Each cycle has **three stages**, repeated ~30 times:
+
+1. **Denaturation** (~95 °C) — heat splits the double helix into two single
+   strands.
+2. **Annealing** (~55 °C) — short **primers** bind to the ends of the target
+   region.
+3. **Extension / synthesis** (~72 °C) — **DNA polymerase** (heat-stable **Taq
+   polymerase**) adds nucleotides, building a new complementary strand.
+
+**PCR happens *before* gel electrophoresis** — you have to amplify the tiny
+sample into a visible amount first. (Invented by Kary Mullis; Nobel Prize 1993.)
 
 ### Sources of DNA at a scene
 
@@ -918,7 +1000,7 @@ AA or AO → type A; BB or BO → type B; AB → type AB; OO → type O.
 carrier of O), so with the choices "A / B / O / none of the above," the answer is
 **none of the above** — every type is possible.
 
-*Другой:* two type-O parents can only have type-O children. A type-AB parent can
+*Also:* two type-O parents can only have type-O children. A type-AB parent can
 never have a type-O child.
 
 ### Blood chemistry
@@ -954,7 +1036,23 @@ are **fingerprint** developers, not blood tests — a favorite trick question.
 > then said *no calculations*. Recent invitationals **do** ask for the angle
 > calculation, so that's the year-2 addition.
 
-### Drop shape and direction
+### What a spatter pattern can tell you (asked as a "list 6–9 things")
+
+- the **direction** each drop was traveling (from the tail / satellites)
+- the **angle of impact** (from the stain's width-to-length ratio)
+- the **velocity / force** category — low, medium, or high
+- the likely **cause** — dripping, blunt force, stabbing, gunshot, cast-off,
+  arterial
+- the **area of convergence** and **area of origin** — where the blood came from,
+  including height
+- the **position and movement** of the victim and attacker
+- the **number of blows** (from counting cast-off arcs)
+- whether a person or object was present (a **void**), and whether the scene was
+  **altered / cleaned**
+- with lab work: the **blood type** and a **DNA profile**
+- a rough **sequence / timeline** of events
+
+### Drop shape, size, and direction
 
 - A drop falling **straight down** onto a level surface makes a **round** stain.
 - A drop striking at an **angle** makes an **elongated/elliptical** stain with a
@@ -963,6 +1061,13 @@ are **fingerprint** developers, not blood tests — a favorite trick question.
 - **Satellite spatter** — small droplets thrown off around a larger parent drop.
   **Spines** — the pointed edge projections. Both point outward in the direction
   of motion.
+- **Drop diameter vs. fall height:** a drop released from higher up hits with
+  more energy and spreads into a **larger-diameter** stain — the diameter
+  **increases with height** up to a point (roughly 7 ft / ~20 ft/s), after which
+  the drop reaches terminal velocity and the size stops growing. Higher falls
+  also produce more **scalloped edges and satellite spatter**.
+- **Passive drops** are typically **4 mm or larger**; a single free-falling blood
+  drop is about 0.05 mL.
 
 ### Angle of impact — the calculation
 
