@@ -3,7 +3,8 @@
 An audit of the curriculum against the official 2025 Division B rules and every
 real invitational test used as a reference during development (CVI 2026, OVI 2026,
 Pembroke Hill, the Archimedean/USC/Purdue/BullSO bundle, "Crime Busters B" USC
-2026, and the SSSS 2017 / 2022 / 2023 / 2024 sets).
+2026, and the SSSS 2017 / 2022 / 2023 / 2024 sets). Those tests and answer keys
+are listed by name, with what each contributed, in [`Sources.md`](Sources.md).
 
 For each topic: where it's **taught** (session / Knowledge Document chapter) and
 where it's **practiced** (quiz / homework). ✅ = fully covered · ⚠️ = partially

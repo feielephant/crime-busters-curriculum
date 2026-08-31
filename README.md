@@ -54,6 +54,8 @@ tests, answer keys, and topic slide decks — is **not** in this repo. It is
 copyrighted material belonging to the schools and organizations that wrote it,
 kept locally in an ignored `raw/` folder. This repo contains only original work
 and is safe to be public.
+[`curriculum/Sources.md`](curriculum/Sources.md) lists every one of those tests
+and answer keys by name and says what each contributed.
 
 ## Season shape
 
