@@ -2,10 +2,14 @@
 # Regenerate the print-ready PDFs in curriculum/pdf/ from the Markdown originals
 # in curriculum/quizzes/ and curriculum/homework/.
 #
+# For each quiz / homework it produces TWO PDFs:
+#   <name>.pdf       - student handout: questions only (everything before "## Answer Key")
+#   <name>_KEY.pdf   - coach copy: the full document, questions + answer key
+#
 # Requires: pandoc, and Google Chrome (headless) for the HTML->PDF step.
 #   brew install pandoc
 #
-# Usage:  bash tools/build_pdfs.sh          (run from the repo root)
+# Usage:  bash tools/build_pdfs.sh          (run from anywhere in the repo)
 
 set -e
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
@@ -19,6 +23,7 @@ CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
 [ -n "$CHROME" ] || { echo "Chrome not found; set \$CHROME to the browser binary."; exit 1; }
 command -v pandoc >/dev/null || { echo "pandoc not found; brew install pandoc"; exit 1; }
 
+rm -rf "$OUT/quizzes" "$OUT/homework"
 mkdir -p "$OUT/quizzes" "$OUT/homework"
 
 cat > "$WORK/head.html" <<'CSS'
@@ -43,21 +48,29 @@ th { background: #ececec; }
 hr { border: none; border-top: 1.5px solid #bbb; margin: 14pt 0; }
 blockquote { border-left: 3px solid #ccc; margin: 6pt 0; padding: 2pt 10pt; color: #444; font-style: italic; }
 strong { color: #000; }
-h2#answer-key, h2#answer-key-1, h2#answer-key-for-the-coach, h2#answer-notes, h2#coach-answer-notes-do-not-hand-out { page-break-before: always; }
+h2#answer-key { page-break-before: always; }
 </style>
 CSS
+
+render () {  # <md> <out.pdf>
+  local md="$1" pdf="$2" base; base="$(basename "$pdf" .pdf)"
+  local title; title="$(grep -m1 '^# ' "$md" | sed 's/^# //')"
+  pandoc "$md" -f gfm -t html5 -s --metadata title="$title" -H "$WORK/head.html" -o "$WORK/$base.html"
+  "$CHROME" --headless --disable-gpu --no-pdf-header-footer --no-sandbox \
+    --print-to-pdf="$pdf" "file://$WORK/$base.html" >/dev/null 2>&1
+}
 
 for label in quizzes homework; do
   n=0
   for md in "$CUR/$label"/*.md; do
     base="$(basename "$md" .md)"
     [ "$base" = "README" ] && continue
-    title="$(grep -m1 '^# ' "$md" | sed 's/^# //')"
-    pandoc "$md" -f gfm -t html5 -s --metadata title="$title" -H "$WORK/head.html" -o "$WORK/$base.html"
-    "$CHROME" --headless --disable-gpu --no-pdf-header-footer --no-sandbox \
-      --print-to-pdf="$OUT/$label/$base.pdf" "file://$WORK/$base.html" >/dev/null 2>&1
-    n=$((n+1)); echo "  $label/$base.pdf"
+    # student copy: everything up to (not including) the "## Answer Key" line
+    awk '/^## Answer Key[[:space:]]*$/{exit} {print}' "$md" > "$WORK/$base.student.md"
+    render "$WORK/$base.student.md" "$OUT/$label/$base.pdf"
+    render "$md"                    "$OUT/$label/${base}_KEY.pdf"
+    n=$((n+1)); echo "  $label/$base.pdf  +  ${base}_KEY.pdf"
   done
-  echo "$label: $n PDFs"
+  echo "$label: $n x 2 PDFs"
 done
 echo "Done -> $OUT"
