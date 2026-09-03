@@ -54,6 +54,7 @@ hr { border: none; border-top: 1.5px solid #bbb; margin: 14pt 0; }
 blockquote { border-left: 3px solid #ccc; margin: 6pt 0; padding: 2pt 10pt; color: #444; font-style: italic; }
 strong { color: #000; }
 h2#answer-key, h2#coach-notes { page-break-before: always; }
+hr:has(+ h2#answer-key), hr:has(+ h2#coach-notes) { display: none; }
 </style>
 CSS
 
