@@ -64,6 +64,7 @@ is *class* evidence, not proof.
 ## Answer Key
 
 **1.**
+
 | Evidence | Points to | Strong/common |
 |---|---|---|
 | White powder, iodine +, no fizz | Reese (has corn starch / flour at the snack table) | **strong** — Bailey has no powders; a starch powder is specific |

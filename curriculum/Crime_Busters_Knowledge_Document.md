@@ -1343,6 +1343,7 @@ often caps at a fraction of the available points.
 ## Appendix A: Formula Quick-Reference
 
 **Powders**
+
 | Name | Formula |
 |---|---|
 | Baking soda (sodium bicarbonate) | NaHCO₃ |
@@ -1362,6 +1363,7 @@ often caps at a fraction of the available points.
 | Boric acid | H₃BO₃ |
 
 **Liquids**
+
 | Name | Formula |
 |---|---|
 | Water | H₂O |
@@ -1374,6 +1376,7 @@ often caps at a fraction of the available points.
 | Sodium hypochlorite (bleach) | NaOCl |
 
 **Polymers (repeat unit)**
+
 | Name | Unit |
 |---|---|
 | Polyethylene (HDPE/LDPE) | (C₂H₄)ₙ |
@@ -1385,6 +1388,7 @@ often caps at a fraction of the available points.
 | Cotton / cellulose (also rayon) | (C₆H₁₀O₅)ₙ |
 
 **Other**
+
 | Name | Formula |
 |---|---|
 | Carbon dioxide | CO₂ |
