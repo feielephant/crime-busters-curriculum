@@ -37,7 +37,7 @@ cat > "$WORK/head.html" <<'CSS'
 * { box-sizing: border-box; }
 #title-block-header { display: none; }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #111; margin: 0; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #111; margin: 0; max-width: none; }
 h1 { font-size: 17pt; margin: 0 0 3pt; border-bottom: 2.5px solid #222; padding-bottom: 5pt; }
 h2 { font-size: 12.5pt; margin: 15pt 0 4pt; border-bottom: 1px solid #bbb; padding-bottom: 2pt; page-break-after: avoid; }
 h3 { font-size: 11pt; margin: 11pt 0 3pt; page-break-after: avoid; }
@@ -61,7 +61,7 @@ render () {  # <md> <out.pdf>
   local md="$1" pdf="$2" base; base="$(basename "$pdf" .pdf)"
   local title; title="$(grep -m1 '^# ' "$md" | sed 's/^# //')"
   pandoc "$md" -f gfm -t html5 -s --metadata title="$title" -H "$WORK/head.html" -o "$WORK/$base.html"
-  "$CHROME" --headless --disable-gpu --no-pdf-header-footer --no-sandbox \
+  "$CHROME" --headless=new --disable-gpu --no-pdf-header-footer --no-sandbox \
     --print-to-pdf="$pdf" "file://$WORK/$base.html" >/dev/null 2>&1
 }
 
