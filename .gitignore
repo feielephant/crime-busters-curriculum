@@ -8,5 +8,8 @@ planning/
 *.dmg
 *.xlsx
 
+# ...but DO track the generated print-ready PDFs of our own curriculum.
+!curriculum/pdf/**/*.pdf
+
 .DS_Store
 **/.DS_Store

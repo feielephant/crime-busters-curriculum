@@ -1,0 +1,63 @@
+#!/bin/bash
+# Regenerate the print-ready PDFs in curriculum/pdf/ from the Markdown originals
+# in curriculum/quizzes/ and curriculum/homework/.
+#
+# Requires: pandoc, and Google Chrome (headless) for the HTML->PDF step.
+#   brew install pandoc
+#
+# Usage:  bash tools/build_pdfs.sh          (run from the repo root)
+
+set -e
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
+CUR="$REPO/curriculum"
+OUT="$CUR/pdf"
+WORK="$(mktemp -d)"
+trap 'rm -rf "$WORK"' EXIT
+
+CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
+[ -x "$CHROME" ] || CHROME="$(command -v google-chrome || command -v chromium || true)"
+[ -n "$CHROME" ] || { echo "Chrome not found; set \$CHROME to the browser binary."; exit 1; }
+command -v pandoc >/dev/null || { echo "pandoc not found; brew install pandoc"; exit 1; }
+
+mkdir -p "$OUT/quizzes" "$OUT/homework"
+
+cat > "$WORK/head.html" <<'CSS'
+<style>
+@page { size: Letter; margin: 0.7in 0.65in; }
+* { box-sizing: border-box; }
+#title-block-header { display: none; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #111; margin: 0; }
+h1 { font-size: 17pt; margin: 0 0 3pt; border-bottom: 2.5px solid #222; padding-bottom: 5pt; }
+h2 { font-size: 12.5pt; margin: 15pt 0 4pt; border-bottom: 1px solid #bbb; padding-bottom: 2pt; page-break-after: avoid; }
+h3 { font-size: 11pt; margin: 11pt 0 3pt; page-break-after: avoid; }
+p { margin: 4pt 0; }
+ul, ol { margin: 4pt 0; padding-left: 20pt; }
+li { margin: 2.5pt 0; }
+code { font-family: "SF Mono", Consolas, monospace; font-size: 9.5pt; background: #f0f0f0; padding: 0.5pt 3pt; border-radius: 2pt; }
+pre { background: #f6f6f6; border: 1px solid #ddd; padding: 6pt 9pt; border-radius: 3pt; font-size: 8.8pt; line-height: 1.35; white-space: pre-wrap; page-break-inside: avoid; }
+pre code { background: none; padding: 0; }
+table { border-collapse: collapse; width: 100%; margin: 6pt 0; font-size: 9.3pt; page-break-inside: avoid; }
+th, td { border: 1px solid #999; padding: 3pt 5pt; text-align: left; vertical-align: top; }
+th { background: #ececec; }
+hr { border: none; border-top: 1.5px solid #bbb; margin: 14pt 0; }
+blockquote { border-left: 3px solid #ccc; margin: 6pt 0; padding: 2pt 10pt; color: #444; font-style: italic; }
+strong { color: #000; }
+h2#answer-key, h2#answer-key-1, h2#answer-key-for-the-coach, h2#answer-notes, h2#coach-answer-notes-do-not-hand-out { page-break-before: always; }
+</style>
+CSS
+
+for label in quizzes homework; do
+  n=0
+  for md in "$CUR/$label"/*.md; do
+    base="$(basename "$md" .md)"
+    [ "$base" = "README" ] && continue
+    title="$(grep -m1 '^# ' "$md" | sed 's/^# //')"
+    pandoc "$md" -f gfm -t html5 -s --metadata title="$title" -H "$WORK/head.html" -o "$WORK/$base.html"
+    "$CHROME" --headless --disable-gpu --no-pdf-header-footer --no-sandbox \
+      --print-to-pdf="$OUT/$label/$base.pdf" "file://$WORK/$base.html" >/dev/null 2>&1
+    n=$((n+1)); echo "  $label/$base.pdf"
+  done
+  echo "$label: $n PDFs"
+done
+echo "Done -> $OUT"
