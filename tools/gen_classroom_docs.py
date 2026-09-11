@@ -21,7 +21,11 @@ for d in (OUT, SYL, CSVDIR):
 # never in this tracked file - this repo is public. See curriculum/classroom/README.md.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
-    from _team_roster import STUDENTS, COACHES, CLASSROOM_DRIVE_URL
+    from _team_roster import (
+        STUDENTS, COACHES, CLASSROOM_DRIVE_URL,
+        HOMEWORK_ASSIGNMENTS_URL, HOMEWORK_SUBMIT_URL, SYLLABUS_URL, QUIZ_URL,
+        STUDENT_SIGNUP_URL, PARENT_SIGNUP_URL,
+    )
 except ImportError:
     sys.exit("tools/_team_roster.py not found (it's gitignored - not part of the public repo).\n"
              "Create it with your team's roster; see curriculum/classroom/README.md for the shape.")
@@ -140,8 +144,13 @@ def course_overview():
     lines.append("## Key links\n")
     lines.append("| What | Link |")
     lines.append("|---|---|")
-    lines.append(f"| Shared classroom Drive folder (every syllabus, the course overview, homework, quizzes) | {CLASSROOM_DRIVE_URL} |")
-    lines.append("\n*(Homework assignment/submission folders and the student/parent sign-up sheets still need to be created — see the coach's own README for the checklist.)*\n")
+    lines.append(f"| Syllabus (all 15 classes) | {SYLLABUS_URL} |")
+    lines.append(f"| Homework assignments (read/download) | {HOMEWORK_ASSIGNMENTS_URL} |")
+    lines.append(f"| Submit completed homework (upload to your own named folder) | {HOMEWORK_SUBMIT_URL} |")
+    lines.append(f"| Quizzes (answer keys posted separately by the coach after each class) | {QUIZ_URL} |")
+    lines.append(f"| Student attendance sign-up sheet | {STUDENT_SIGNUP_URL} |")
+    lines.append(f"| Parent attendance sign-up sheet | {PARENT_SIGNUP_URL} |")
+    lines.append("\n*(The sign-up sheet links above are still placeholders until those two Google Sheets are created — see the coach's own README for the checklist.)*\n")
     lines.append("\n---\n")
     lines.append("## Team roster\n")
     lines.append("| Student | Email |")
@@ -226,9 +235,10 @@ def syllabus(c):
     if kind == "testprep":
         lines.append(f"{hw}.\n")
     else:
-        lines.append(f"**{hw}** — do it on your own before the next class. (The matching **Quiz {sn}** is a lighter review you can also use.)\n")
+        lines.append(f"**{hw}** — do it on your own before the next class. (The matching **Quiz {sn}** in {QUIZ_URL} is a lighter review you can also use — the answer key gets posted there separately after class.)\n")
         lines.append(f"\n- File: **{HW_FILENAMES[sn]}**")
-        lines.append("- Assignment folder / submission folder: see the classroom Drive links (to be finalized)\n")
+        lines.append(f"- Assignment folder: {HOMEWORK_ASSIGNMENTS_URL}")
+        lines.append(f"- Submit your completed work (in a folder named exactly after you): {HOMEWORK_SUBMIT_URL}\n")
     lines.append("## Bring\n")
     lines.append("Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (3, 4, 6, 10, and all practice tests).\n")
     lines.append("\n---\n")

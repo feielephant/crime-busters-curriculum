@@ -14,11 +14,12 @@ soil texture triangle, class vs. individual characteristics, IAFIS, AFIS, CODIS,
 
 ## Homework
 
-**Homework 12** — do it on your own before the next class. (The matching **Quiz 12** is a lighter review you can also use.)
+**Homework 12** — do it on your own before the next class. (The matching **Quiz 12** in https://drive.google.com/drive/folders/1LVjy-7orOI-Fb46sJNIbsAY5BMnBSP5l is a lighter review you can also use — the answer key gets posted there separately after class.)
 
 
 - File: **Homework_12_Soil_Impressions_And_Advanced_Prints.pdf**
-- Assignment folder / submission folder: see the classroom Drive links (to be finalized)
+- Assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-
+- Submit your completed work (in a folder named exactly after you): https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64
 
 ## Bring
 

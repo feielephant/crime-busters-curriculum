@@ -14,11 +14,12 @@ density, atomic number, oxide layer, alloy, magnetism
 
 ## Homework
 
-**Homework 6** — do it on your own before the next class. (The matching **Quiz 6** is a lighter review you can also use.)
+**Homework 6** — do it on your own before the next class. (The matching **Quiz 6** in https://drive.google.com/drive/folders/1LVjy-7orOI-Fb46sJNIbsAY5BMnBSP5l is a lighter review you can also use — the answer key gets posted there separately after class.)
 
 
 - File: **Homework_06_Metals.pdf**
-- Assignment folder / submission folder: see the classroom Drive links (to be finalized)
+- Assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-
+- Submit your completed work (in a folder named exactly after you): https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64
 
 ## Bring
 
