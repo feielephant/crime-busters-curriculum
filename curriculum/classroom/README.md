@@ -13,14 +13,12 @@ these still need to be created, then the placeholder URLs below need to be fille
    with `Syllabus/`, `Homework /`, `Homework upload/`, and `quiz and answer key/` subfolders
    inside it) — right-click the folder in Drive → Share → copy link. Put it in
    `CLASSROOM_DRIVE_URL` in `tools/_team_roster.py`.
-2. **Create two Google Sheets** for attendance sign-up (student + parent), the same way as
-   the Disease Detectives ones: New Sheet → File → Import → Upload →
-   `google_sheets_import/students.csv` (or `parents.csv`) → *Replace current sheet* → select
-   the `FALSE` cells → Insert → Checkbox → Share → Anyone with the link → Editor. Put the two
-   links in `STUDENT_SIGNUP_URL` / `PARENT_SIGNUP_URL` in `tools/_team_roster.py`. **Once these
-   exist, delete `Attendance_Signup.pdf` and `Attendance_Signup_fillable.pdf` from the Drive
-   folder** — they're only there as an interim placeholder until the live Sheets exist, matching
-   the Disease Detectives convention of live-Sheet-only once one exists.
+2. **Create two Google Sheets** for attendance sign-up (student + parent). The PDF sign-up
+   didn't work out, so skip that — `students_signup.csv` and `parents_signup.csv` are already
+   sitting at the top level of the `CrimeBuster 2026-2027` Drive folder: right-click each →
+   **Open with → Google Sheets** → **File → Save as Google Sheets** → select the `FALSE` cells
+   → **Insert → Checkbox** → **Share → Anyone with the link → Editor**. Put the two resulting
+   links in `STUDENT_SIGNUP_URL` / `PARENT_SIGNUP_URL` in `tools/_team_roster.py`.
 3. **Get a shareable link for `Homework /`** (assignments, read-only) and for
    `Homework upload/` (submissions) specifically, and put them in
    `HOMEWORK_ASSIGNMENTS_URL` / `HOMEWORK_SUBMIT_URL` in `tools/_team_roster.py`.
@@ -48,9 +46,7 @@ bash tools/sync_to_drive.sh
 | File | What it is |
 |---|---|
 | `Course_Overview.md` (+ PDF) | The whole season on one page — roster, all 15 class dates, tournaments (assumed), pacing |
-| `Attendance_Signup.md` (+ PDF) | Two check-box tables (students, parents) × all 15 dates — plain boxes to print/check by hand |
-| `pdf/Attendance_Signup_fillable.pdf` | Same two tables as a fillable PDF (real checkboxes) |
-| `google_sheets_import/students.csv`, `parents.csv` | Same two tables, ready to become a live Google Sheet (see step 2 above) |
+| `google_sheets_import/students.csv`, `parents.csv` | Sign-up tables, synced as `students_signup.csv`/`parents_signup.csv` to the top of the Drive folder, ready to become a live Google Sheet (see step 2 above). **The PDF sign-up (`Attendance_Signup.md`/`.pdf`/`_fillable.pdf`) is generated but not synced or used — it didn't work out for this team.** |
 | `CrimeBusters_Schedule.ics` | Calendar file — all 15 classes (with homework + links, once filled in) + 15 "2 days before" reminders + the 4 assumed tournaments |
 | `syllabi/Class_01…Class_15` (+ PDFs) | One-page syllabus per class |
 
