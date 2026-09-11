@@ -1,0 +1,545 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Crime Busters Curriculum//Season 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Crime Busters 2026-27
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cb-2627-class-01@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260917T183000
+DTEND;TZID=America/Los_Angeles:20260917T200000
+SUMMARY:Crime Busters - Class 1: What the Judges Actually Score
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Locard's principle\, chain of custody\, class vs. individual e
+ vidence\, direct vs. circumstantial evidence\, how the analysis report is
+  scored.\n\n(Class 1 of 15 - see the syllabus in Google Classroom.)\n\nHo
+ mework 1 assigned today: What the Judges Actually Score\nFile: Homework_0
+ 1_What_The_Judges_Actually_Score.pdf\nAssignment folder: https://drive.go
+ ogle.com/drive/folders/REPLACE_ME\nSubmit your completed work (in a folde
+ r named exactly after you): https://drive.google.com/drive/folders/REPLAC
+ E_ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-02@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260924T183000
+DTEND;TZID=America/Los_Angeles:20260924T200000
+SUMMARY:Crime Busters - Class 2: Qualitative Analysis I — The Workflow
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:A repeatable powder-testing sequence\; building and running a 
+ dichotomous key.\n\n(Class 2 of 15 - see the syllabus in Google Classroom
+ .)\n\nHomework 2 assigned today: Qualitative Analysis I — The Workflow\
+ nFile: Homework_02_Qualitative_Analysis_I_The_Workflow.pdf\nAssignment fo
+ lder: https://drive.google.com/drive/folders/REPLACE_ME\nSubmit your comp
+ leted work (in a folder named exactly after you): https://drive.google.co
+ m/drive/folders/REPLACE_ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-03@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261001T183000
+DTEND;TZID=America/Los_Angeles:20261001T200000
+SUMMARY:Crime Busters - Class 3: Qualitative Analysis II — The Chemistry
+  (DENSE)
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Chemical formulas on demand\; why each test works (starch-iodi
+ ne\, carbonate fizz\, reducing-sugar)\; the harder powders.\n\n(Class 3 o
+ f 15 - see the syllabus in Google Classroom.)\n\nHomework 3 assigned toda
+ y: Qualitative Analysis II — The Chemistry\nFile: Homework_03_Qualitati
+ ve_Analysis_II_The_Chemistry.pdf\nAssignment folder: https://drive.google
+ .com/drive/folders/REPLACE_ME\nSubmit your completed work (in a folder na
+ med exactly after you): https://drive.google.com/drive/folders/REPLACE_ME
+ \nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-04@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261008T183000
+DTEND;TZID=America/Los_Angeles:20261008T200000
+SUMMARY:Crime Busters - Class 4: Qualitative Analysis III — Mixtures & E
+ quations (DENSE)
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Separating mixtures\; writing and balancing reactions\; moles 
+ and mass.\n\n(Class 4 of 15 - see the syllabus in Google Classroom.)\n\nH
+ omework 4 assigned today: Qualitative Analysis III — Mixtures & Equatio
+ ns\nFile: Homework_04_Qualitative_Analysis_III_Mixtures_And_Equations.pdf
+ \nAssignment folder: https://drive.google.com/drive/folders/REPLACE_ME\nS
+ ubmit your completed work (in a folder named exactly after you): https://
+ drive.google.com/drive/folders/REPLACE_ME\nDue: 2 days before the next cl
+ ass.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-05@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261015T183000
+DTEND;TZID=America/Los_Angeles:20261015T200000
+SUMMARY:Crime Busters - Class 5: Liquids & pH
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Liquid ID and formulas\; the pH scale\; acid/base\; HCl safety
+ .\n\n(Class 5 of 15 - see the syllabus in Google Classroom.)\n\nHomework 
+ 5 assigned today: Liquids & pH\nFile: Homework_05_Liquids_And_pH.pdf\nAss
+ ignment folder: https://drive.google.com/drive/folders/REPLACE_ME\nSubmit
+  your completed work (in a folder named exactly after you): https://drive
+ .google.com/drive/folders/REPLACE_ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-06@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261022T183000
+DTEND;TZID=America/Los_Angeles:20261022T200000
+SUMMARY:Crime Busters - Class 6: Metals
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Density calculation and unit conversion\; atomic number\; reac
+ tion types\; oxide layers\; alloys\; magnetism.\n\n(Class 6 of 15 - see t
+ he syllabus in Google Classroom.)\n\nHomework 6 assigned today: Metals\nF
+ ile: Homework_06_Metals.pdf\nAssignment folder: https://drive.google.com/
+ drive/folders/REPLACE_ME\nSubmit your completed work (in a folder named e
+ xactly after you): https://drive.google.com/drive/folders/REPLACE_ME\nDue
+ : 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-07@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261029T183000
+DTEND;TZID=America/Los_Angeles:20261029T200000
+SUMMARY:Crime Busters - Class 7: Practice Test #1 + Answer Review
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:First full timed practice test (Sessions 1-6)\, then review - 
+ one 90-min sitting. Bring a calculator.\n\n(Class 7 of 15 - see the sylla
+ bus in Google Classroom.)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-08@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261105T183000
+DTEND;TZID=America/Los_Angeles:20261105T200000
+SUMMARY:Crime Busters - Class 8: Hair & DNA Evidence
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Hair growth phases\; medullary-index calculation\; hair roots\
+ ; poisoning timeline\; reading a DNA gel.\n\n(Class 8 of 15 - see the syl
+ labus in Google Classroom.)\n\nHomework 7 assigned today: Hair & DNA Evid
+ ence\nFile: Homework_07_Hair_And_DNA_Evidence.pdf\nAssignment folder: htt
+ ps://drive.google.com/drive/folders/REPLACE_ME\nSubmit your completed wor
+ k (in a folder named exactly after you): https://drive.google.com/drive/f
+ olders/REPLACE_ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-09@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261112T183000
+DTEND;TZID=America/Los_Angeles:20261112T200000
+SUMMARY:Crime Busters - Class 9: Fibers & Chromatography
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Burn-test flow chart\; naming synthetic fibers\; Rf value and 
+ phases\; history of chromatography.\n\n(Class 9 of 15 - see the syllabus 
+ in Google Classroom.)\n\nHomework 8 assigned today: Fibers & Chromatograp
+ hy\nFile: Homework_08_Fibers_And_Chromatography.pdf\nAssignment folder: h
+ ttps://drive.google.com/drive/folders/REPLACE_ME\nSubmit your completed w
+ ork (in a folder named exactly after you): https://drive.google.com/drive
+ /folders/REPLACE_ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-10@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261119T183000
+DTEND;TZID=America/Los_Angeles:20261119T200000
+SUMMARY:Crime Busters - Class 10: Plastics
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Thermoset vs. thermoplastic\; resin codes\; density-column lad
+ der\; polycarbonate\; the Bakelite story.\n\n(Class 10 of 15 - see the sy
+ llabus in Google Classroom.)\n\nHomework 9 assigned today: Plastics\nFile
+ : Homework_09_Plastics.pdf\nAssignment folder: https://drive.google.com/d
+ rive/folders/REPLACE_ME\nSubmit your completed work (in a folder named ex
+ actly after you): https://drive.google.com/drive/folders/REPLACE_ME\nDue:
+  2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-11@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261203T183000
+DTEND;TZID=America/Los_Angeles:20261203T200000
+SUMMARY:Crime Busters - Class 11: Blood (DENSE)
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:ABO/Rh typing from an agglutination grid\; donor/recipient\; p
+ arental crosses\; blood chemistry\; presumptive tests.\n\n(Class 11 of 15
+  - see the syllabus in Google Classroom.)\n\nHomework 10 assigned today: 
+ Blood\nFile: Homework_10_Blood.pdf\nAssignment folder: https://drive.goog
+ le.com/drive/folders/REPLACE_ME\nSubmit your completed work (in a folder 
+ named exactly after you): https://drive.google.com/drive/folders/REPLACE_
+ ME\nDue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-12@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261210T183000
+DTEND;TZID=America/Los_Angeles:20261210T200000
+SUMMARY:Crime Busters - Class 12: Practice Test #2 + Answer Review
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Mid-season checkpoint - full timed practice test (Sessions 1-1
+ 0)\, then review. Bring a calculator.\n\n(Class 12 of 15 - see the syllab
+ us in Google Classroom.)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-13@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261217T183000
+DTEND;TZID=America/Los_Angeles:20261217T200000
+SUMMARY:Crime Busters - Class 13: Blood Spatter & Glass
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Angle of impact by calculation\; convergence and origin\; velo
+ city classes\; glass fracture types\; impact sequencing. Last class befor
+ e winter break.\n\n(Class 13 of 15 - see the syllabus in Google Classroom
+ .)\n\nHomework 11 assigned today: Blood Spatter & Glass\nFile: Homework_1
+ 1_Blood_Spatter_And_Glass.pdf\nAssignment folder: https://drive.google.co
+ m/drive/folders/REPLACE_ME\nSubmit your completed work (in a folder named
+  exactly after you): https://drive.google.com/drive/folders/REPLACE_ME\nD
+ ue: 2 days before the next class.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-14@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20270107T183000
+DTEND;TZID=America/Los_Angeles:20270107T200000
+SUMMARY:Crime Busters - Class 14: Soil\, Impressions & Advanced Prints
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Soil texture triangle\; particle size/color\; shoe/tire class 
+ vs. individual characteristics\; full IAFIS pattern set\; AFIS/CODIS/NCIC
+ . First class back from break.\n\n(Class 14 of 15 - see the syllabus in G
+ oogle Classroom.)\n\nHomework 12 assigned today: Soil\, Impressions & Adv
+ anced Prints\nFile: Homework_12_Soil_Impressions_And_Advanced_Prints.pdf\
+ nAssignment folder: https://drive.google.com/drive/folders/REPLACE_ME\nSu
+ bmit your completed work (in a folder named exactly after you): https://d
+ rive.google.com/drive/folders/REPLACE_ME\nDue: 2 days before the next cla
+ ss.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-class-15@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20270114T183000
+DTEND;TZID=America/Los_Angeles:20270114T200000
+SUMMARY:Crime Busters - Class 15: Practice Test #3 — Final Dry Run + Rev
+ iew
+LOCATION:TBD - same location as Disease Detectives? confirm
+DESCRIPTION:Final timed dry run under full competition conditions (goggles
+ \, aprons\, 50-min clock\, cleanup scored)\, then review. Last practice b
+ efore competition.\n\n(Class 15 of 15 - see the syllabus in Google Classr
+ oom.)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-01@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:📋 Reminder: update sign-up sheets (Class 1 is Thursday)
+DESCRIPTION:Before Class 1 (Thu Sep 17) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-02@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:📋 Reminder: submit Homework 1 + update sign-up sheets (Class 2 
+ is Thursday)
+DESCRIPTION:Before Class 2 (Thu Sep 24) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 1: What the Judges Actually Score\n   File: Homework_01_What
+ _The_Judges_Actually_Score.pdf (find it in the assignment folder: https:/
+ /drive.google.com/drive/folders/REPLACE_ME)\n   Upload your completed wor
+ k to: https://drive.google.com/drive/folders/REPLACE_ME\n   (create a fol
+ der there with your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-03@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:📋 Reminder: submit Homework 2 + update sign-up sheets (Class 3 
+ is Thursday)
+DESCRIPTION:Before Class 3 (Thu Oct 1) this Thursday:\n\n1. Update your at
+ tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
+ _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
+ it Homework 2: Qualitative Analysis I — The Workflow\n   File: Homework
+ _02_Qualitative_Analysis_I_The_Workflow.pdf (find it in the assignment fo
+ lder: https://drive.google.com/drive/folders/REPLACE_ME)\n   Upload your 
+ completed work to: https://drive.google.com/drive/folders/REPLACE_ME\n   
+ (create a folder there with your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-04@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:📋 Reminder: submit Homework 3 + update sign-up sheets (Class 4 
+ is Thursday)
+DESCRIPTION:Before Class 4 (Thu Oct 8) this Thursday:\n\n1. Update your at
+ tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
+ _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
+ it Homework 3: Qualitative Analysis II — The Chemistry\n   File: Homewo
+ rk_03_Qualitative_Analysis_II_The_Chemistry.pdf (find it in the assignmen
+ t folder: https://drive.google.com/drive/folders/REPLACE_ME)\n   Upload y
+ our completed work to: https://drive.google.com/drive/folders/REPLACE_ME\
+ n   (create a folder there with your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-05@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:📋 Reminder: submit Homework 4 + update sign-up sheets (Class 5 
+ is Thursday)
+DESCRIPTION:Before Class 5 (Thu Oct 15) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 4: Qualitative Analysis III — Mixtures & Equations\n   Fil
+ e: Homework_04_Qualitative_Analysis_III_Mixtures_And_Equations.pdf (find 
+ it in the assignment folder: https://drive.google.com/drive/folders/REPLA
+ CE_ME)\n   Upload your completed work to: https://drive.google.com/drive/
+ folders/REPLACE_ME\n   (create a folder there with your exact name if you
+  don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-06@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:📋 Reminder: submit Homework 5 + update sign-up sheets (Class 6 
+ is Thursday)
+DESCRIPTION:Before Class 6 (Thu Oct 22) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 5: Liquids & pH\n   File: Homework_05_Liquids_And_pH.pdf (fi
+ nd it in the assignment folder: https://drive.google.com/drive/folders/RE
+ PLACE_ME)\n   Upload your completed work to: https://drive.google.com/dri
+ ve/folders/REPLACE_ME\n   (create a folder there with your exact name if 
+ you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-07@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:📋 Reminder: submit Homework 6 + update sign-up sheets (Class 7 
+ is Thursday)
+DESCRIPTION:Before Class 7 (Thu Oct 29) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 6: Metals\n   File: Homework_06_Metals.pdf (find it in the a
+ ssignment folder: https://drive.google.com/drive/folders/REPLACE_ME)\n   
+ Upload your completed work to: https://drive.google.com/drive/folders/REP
+ LACE_ME\n   (create a folder there with your exact name if you don't have
+  one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-08@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:📋 Reminder: update sign-up sheets (Class 8 is Thursday)
+DESCRIPTION:Before Class 8 (Thu Nov 5) this Thursday:\n\n1. Update your at
+ tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
+ _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-09@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:📋 Reminder: submit Homework 7 + update sign-up sheets (Class 9 
+ is Thursday)
+DESCRIPTION:Before Class 9 (Thu Nov 12) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 7: Hair & DNA Evidence\n   File: Homework_07_Hair_And_DNA_Ev
+ idence.pdf (find it in the assignment folder: https://drive.google.com/dr
+ ive/folders/REPLACE_ME)\n   Upload your completed work to: https://drive.
+ google.com/drive/folders/REPLACE_ME\n   (create a folder there with your 
+ exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-10@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:📋 Reminder: submit Homework 8 + update sign-up sheets (Class 10
+  is Thursday)
+DESCRIPTION:Before Class 10 (Thu Nov 19) this Thursday:\n\n1. Update your 
+ attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
+ NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
+ bmit Homework 8: Fibers & Chromatography\n   File: Homework_08_Fibers_And
+ _Chromatography.pdf (find it in the assignment folder: https://drive.goog
+ le.com/drive/folders/REPLACE_ME)\n   Upload your completed work to: https
+ ://drive.google.com/drive/folders/REPLACE_ME\n   (create a folder there w
+ ith your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-11@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:📋 Reminder: submit Homework 9 + update sign-up sheets (Class 11
+  is Thursday)
+DESCRIPTION:Before Class 11 (Thu Dec 3) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 9: Plastics\n   File: Homework_09_Plastics.pdf (find it in t
+ he assignment folder: https://drive.google.com/drive/folders/REPLACE_ME)\
+ n   Upload your completed work to: https://drive.google.com/drive/folders
+ /REPLACE_ME\n   (create a folder there with your exact name if you don't 
+ have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-12@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:📋 Reminder: submit Homework 10 + update sign-up sheets (Class 1
+ 2 is Thursday)
+DESCRIPTION:Before Class 12 (Thu Dec 10) this Thursday:\n\n1. Update your 
+ attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
+ NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
+ bmit Homework 10: Blood\n   File: Homework_10_Blood.pdf (find it in the a
+ ssignment folder: https://drive.google.com/drive/folders/REPLACE_ME)\n   
+ Upload your completed work to: https://drive.google.com/drive/folders/REP
+ LACE_ME\n   (create a folder there with your exact name if you don't have
+  one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-13@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:📋 Reminder: update sign-up sheets (Class 13 is Thursday)
+DESCRIPTION:Before Class 13 (Thu Dec 17) this Thursday:\n\n1. Update your 
+ attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
+ NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-14@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:📋 Reminder: submit Homework 11 + update sign-up sheets (Class 1
+ 4 is Thursday)
+DESCRIPTION:Before Class 14 (Thu Jan 7) this Thursday:\n\n1. Update your a
+ ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
+ mit Homework 11: Blood Spatter & Glass\n   File: Homework_11_Blood_Spatte
+ r_And_Glass.pdf (find it in the assignment folder: https://drive.google.c
+ om/drive/folders/REPLACE_ME)\n   Upload your completed work to: https://d
+ rive.google.com/drive/folders/REPLACE_ME\n   (create a folder there with 
+ your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-reminder-15@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:📋 Reminder: submit Homework 12 + update sign-up sheets (Class 1
+ 5 is Thursday)
+DESCRIPTION:Before Class 15 (Thu Jan 14) this Thursday:\n\n1. Update your 
+ attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
+ NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
+ bmit Homework 12: Soil\, Impressions & Advanced Prints\n   File: Homework
+ _12_Soil_Impressions_And_Advanced_Prints.pdf (find it in the assignment f
+ older: https://drive.google.com/drive/folders/REPLACE_ME)\n   Upload your
+  completed work to: https://drive.google.com/drive/folders/REPLACE_ME\n  
+  (create a folder there with your exact name if you don't have one yet)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-tourn-20270109@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Tournament (unconfirmed): Oak Valley Invitational
+DESCRIPTION:Oak Valley Invitational @ Oak Valley Middle School (tentative\
+ , likely) - UNCONFIRMED for Crime Busters\, assumed same as Disease Detec
+ tives\n\nSaturday event - does not replace the Thursday class that week.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-tourn-20270116@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Tournament (unconfirmed): UC Riverside Invitational
+DESCRIPTION:UC Riverside Invitational @ Riverside (tentative) - UNCONFIRME
+ D for Crime Busters\, assumed same as Disease Detectives\n\nSaturday even
+ t - does not replace the Thursday class that week.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-tourn-20270123@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Tournament (unconfirmed): Carmel Valley Invitational
+DESCRIPTION:Carmel Valley Invitational @ Canyon Crest Academy (confirmed f
+ or Disease Detectives) - UNCONFIRMED for Crime Busters\, assumed same\n\n
+ Saturday event - does not replace the Thursday class that week.
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:cb-2627-tourn-20270206@crime-busters-curriculum
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Tournament (unconfirmed): San Diego Regional
+DESCRIPTION:San Diego Regional @ Mira Mesa College (confirmed for Disease 
+ Detectives) - UNCONFIRMED for Crime Busters\, assumed same - the target\n
+ \nSaturday event - does not replace the Thursday class that week.
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
