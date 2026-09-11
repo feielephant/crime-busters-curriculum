@@ -21,5 +21,6 @@ planning/
 curriculum/classroom/Course_Overview.md
 curriculum/classroom/Attendance_Signup.md
 curriculum/classroom/google_sheets_import/
+curriculum/classroom/Welcome_Email.md
 tools/_team_roster.py
 tools/sync_to_drive.sh
