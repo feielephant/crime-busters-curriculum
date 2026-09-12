@@ -258,12 +258,12 @@ with open(os.path.join(CSVDIR, "students.csv"), "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["Student", "Email"] + dates_short)
     for name, email in STUDENTS:
-        w.writerow([name, email] + ["FALSE"] * len(dates_short))
+        w.writerow([name, email] + [""] * len(dates_short))
 with open(os.path.join(CSVDIR, "parents.csv"), "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["Parent / Guardian", "Student", "Email"] + dates_short)
     for name, email in STUDENTS:
-        w.writerow(["", name, ""] + ["FALSE"] * len(dates_short))
+        w.writerow(["", name, ""] + [""] * len(dates_short))
 
 for c in CLASSES:
     n = c[0]
