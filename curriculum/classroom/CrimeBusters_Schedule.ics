@@ -274,8 +274,10 @@ DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:📋 Reminder: update sign-up sheets (Class 1 is Thursday)
 DESCRIPTION:Before Class 1 (Thu Sep 17) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -285,8 +287,10 @@ DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:📋 Reminder: update sign-up sheets (Class 2 is Thursday)
 DESCRIPTION:Before Class 2 (Thu Sep 24) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -297,14 +301,16 @@ DTEND;VALUE=DATE:20260930
 SUMMARY:📋 Reminder: submit Homework 2 + update sign-up sheets (Class 3 
  is Thursday)
 DESCRIPTION:Before Class 3 (Thu Oct 1) this Thursday:\n\n1. Update your at
- tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
- _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
- it Homework 2: Powders 101 — The Workflow and the Chemistry\n   File: H
- omework_02_Powders_101_Workflow_And_Chemistry.pdf (find it in the assignm
- ent folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifd
- C_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.google.com/
- drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder ther
- e with your exact name if you don't have one yet)
+ tendance on the sign-up sheets:\n   - Student sign-up: https://docs.googl
+ e.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n 
+   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUlai
+ YAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 2: Powders 101 
+ — The Workflow and the Chemistry\n   File: Homework_02_Powders_101_Work
+ flow_And_Chemistry.pdf (find it in the assignment folder: https://drive.g
+ oogle.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload you
+ r completed work to: https://drive.google.com/drive/folders/1kFcfgxD-XUN_
+ VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact name if y
+ ou don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -315,14 +321,16 @@ DTEND;VALUE=DATE:20261007
 SUMMARY:📋 Reminder: submit Homework 3 + update sign-up sheets (Class 4 
  is Thursday)
 DESCRIPTION:Before Class 4 (Thu Oct 8) this Thursday:\n\n1. Update your at
- tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
- _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
- it Homework 3: What the Judges Actually Score\n   File: Homework_03_What_
- The_Judges_Actually_Score.pdf (find it in the assignment folder: https://
- drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upl
- oad your completed work to: https://drive.google.com/drive/folders/1kFcfg
- xD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact na
- me if you don't have one yet)
+ tendance on the sign-up sheets:\n   - Student sign-up: https://docs.googl
+ e.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n 
+   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUlai
+ YAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 3: What the Jud
+ ges Actually Score\n   File: Homework_03_What_The_Judges_Actually_Score.p
+ df (find it in the assignment folder: https://drive.google.com/drive/fold
+ ers/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to:
+  https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64
+ \n   (create a folder there with your exact name if you don't have one ye
+ t)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -333,14 +341,16 @@ DTEND;VALUE=DATE:20261014
 SUMMARY:📋 Reminder: submit Homework 4 + update sign-up sheets (Class 5 
  is Thursday)
 DESCRIPTION:Before Class 5 (Thu Oct 15) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 4: Qualitative Analysis III — Mixtures & Equations\n   Fil
- e: Homework_04_Qualitative_Analysis_III_Mixtures_And_Equations.pdf (find 
- it in the assignment folder: https://drive.google.com/drive/folders/1NI5N
- IlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://
- drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (cre
- ate a folder there with your exact name if you don't have one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 4: Qualitative
+  Analysis III — Mixtures & Equations\n   File: Homework_04_Qualitative_
+ Analysis_III_Mixtures_And_Equations.pdf (find it in the assignment folder
+ : https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy
+ -)\n   Upload your completed work to: https://drive.google.com/drive/fold
+ ers/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with you
+ r exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -351,13 +361,15 @@ DTEND;VALUE=DATE:20261021
 SUMMARY:📋 Reminder: submit Homework 5 + update sign-up sheets (Class 6 
  is Thursday)
 DESCRIPTION:Before Class 6 (Thu Oct 22) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 5: Liquids & pH\n   File: Homework_05_Liquids_And_pH.pdf (fi
- nd it in the assignment folder: https://drive.google.com/drive/folders/1N
- I5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https
- ://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (
- create a folder there with your exact name if you don't have one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 5: Liquids & p
+ H\n   File: Homework_05_Liquids_And_pH.pdf (find it in the assignment fol
+ der: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z
+ 7Cy-)\n   Upload your completed work to: https://drive.google.com/drive/f
+ olders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with 
+ your exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -368,13 +380,15 @@ DTEND;VALUE=DATE:20261028
 SUMMARY:📋 Reminder: submit Homework 6 + update sign-up sheets (Class 7 
  is Thursday)
 DESCRIPTION:Before Class 7 (Thu Oct 29) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 6: Metals\n   File: Homework_06_Metals.pdf (find it in the a
- ssignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZD
- Cs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.googl
- e.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folde
- r there with your exact name if you don't have one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 6: Metals\n   
+ File: Homework_06_Metals.pdf (find it in the assignment folder: https://d
+ rive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Uplo
+ ad your completed work to: https://drive.google.com/drive/folders/1kFcfgx
+ D-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact nam
+ e if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -384,8 +398,10 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:📋 Reminder: update sign-up sheets (Class 8 is Thursday)
 DESCRIPTION:Before Class 8 (Thu Nov 5) this Thursday:\n\n1. Update your at
- tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
- _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+ tendance on the sign-up sheets:\n   - Student sign-up: https://docs.googl
+ e.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n 
+   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUlai
+ YAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -396,14 +412,15 @@ DTEND;VALUE=DATE:20261111
 SUMMARY:📋 Reminder: submit Homework 7 + update sign-up sheets (Class 9 
  is Thursday)
 DESCRIPTION:Before Class 9 (Thu Nov 12) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 7: Hair & DNA Evidence\n   File: Homework_07_Hair_And_DNA_Ev
- idence.pdf (find it in the assignment folder: https://drive.google.com/dr
- ive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed 
- work to: https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYc
- MUK-VY64\n   (create a folder there with your exact name if you don't hav
- e one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 7: Hair & DNA 
+ Evidence\n   File: Homework_07_Hair_And_DNA_Evidence.pdf (find it in the 
+ assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZ
+ DCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.goog
+ le.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a fold
+ er there with your exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -414,14 +431,15 @@ DTEND;VALUE=DATE:20261118
 SUMMARY:📋 Reminder: submit Homework 8 + update sign-up sheets (Class 10
   is Thursday)
 DESCRIPTION:Before Class 10 (Thu Nov 19) this Thursday:\n\n1. Update your 
- attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
- NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
- bmit Homework 8: Fibers & Chromatography\n   File: Homework_08_Fibers_And
- _Chromatography.pdf (find it in the assignment folder: https://drive.goog
- le.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your c
- ompleted work to: https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZ
- GqD_RSvYcMUK-VY64\n   (create a folder there with your exact name if you 
- don't have one yet)
+ attendance on the sign-up sheets:\n   - Student sign-up: https://docs.goo
+ gle.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\
+ n   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUl
+ aiYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 8: Fibers & C
+ hromatography\n   File: Homework_08_Fibers_And_Chromatography.pdf (find i
+ t in the assignment folder: https://drive.google.com/drive/folders/1NI5NI
+ lzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://d
+ rive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (crea
+ te a folder there with your exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -432,13 +450,15 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:📋 Reminder: submit Homework 9 + update sign-up sheets (Class 11
   is Thursday)
 DESCRIPTION:Before Class 11 (Thu Dec 3) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 9: Plastics\n   File: Homework_09_Plastics.pdf (find it in t
- he assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo
- 9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.g
- oogle.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a f
- older there with your exact name if you don't have one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 9: Plastics\n 
+   File: Homework_09_Plastics.pdf (find it in the assignment folder: https
+ ://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   
+ Upload your completed work to: https://drive.google.com/drive/folders/1kF
+ cfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact
+  name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -449,13 +469,15 @@ DTEND;VALUE=DATE:20261209
 SUMMARY:📋 Reminder: submit Homework 10 + update sign-up sheets (Class 1
  2 is Thursday)
 DESCRIPTION:Before Class 12 (Thu Dec 10) this Thursday:\n\n1. Update your 
- attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
- NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
- bmit Homework 10: Blood\n   File: Homework_10_Blood.pdf (find it in the a
- ssignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZD
- Cs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.googl
- e.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folde
- r there with your exact name if you don't have one yet)
+ attendance on the sign-up sheets:\n   - Student sign-up: https://docs.goo
+ gle.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\
+ n   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUl
+ aiYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 10: Blood\n  
+  File: Homework_10_Blood.pdf (find it in the assignment folder: https://d
+ rive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Uplo
+ ad your completed work to: https://drive.google.com/drive/folders/1kFcfgx
+ D-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact nam
+ e if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -465,8 +487,10 @@ DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:📋 Reminder: update sign-up sheets (Class 13 is Thursday)
 DESCRIPTION:Before Class 13 (Thu Dec 17) this Thursday:\n\n1. Update your 
- attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
- NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
+ attendance on the sign-up sheets:\n   - Student sign-up: https://docs.goo
+ gle.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\
+ n   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUl
+ aiYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -477,14 +501,15 @@ DTEND;VALUE=DATE:20270106
 SUMMARY:📋 Reminder: submit Homework 11 + update sign-up sheets (Class 1
  4 is Thursday)
 DESCRIPTION:Before Class 14 (Thu Jan 7) this Thursday:\n\n1. Update your a
- ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 11: Blood Spatter & Glass\n   File: Homework_11_Blood_Spatte
- r_And_Glass.pdf (find it in the assignment folder: https://drive.google.c
- om/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your compl
- eted work to: https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_
- RSvYcMUK-VY64\n   (create a folder there with your exact name if you don'
- t have one yet)
+ ttendance on the sign-up sheets:\n   - Student sign-up: https://docs.goog
+ le.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\n
+    - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUla
+ iYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 11: Blood Spat
+ ter & Glass\n   File: Homework_11_Blood_Spatter_And_Glass.pdf (find it in
+  the assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFH
+ go9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your completed work to: https://drive
+ .google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a
+  folder there with your exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -495,14 +520,16 @@ DTEND;VALUE=DATE:20270113
 SUMMARY:📋 Reminder: submit Homework 12 + update sign-up sheets (Class 1
  5 is Thursday)
 DESCRIPTION:Before Class 15 (Thu Jan 14) this Thursday:\n\n1. Update your 
- attendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDE
- NT_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Su
- bmit Homework 12: Soil\, Impressions & Advanced Prints\n   File: Homework
- _12_Soil_Impressions_And_Advanced_Prints.pdf (find it in the assignment f
- older: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS
- 9Z7Cy-)\n   Upload your completed work to: https://drive.google.com/drive
- /folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there wit
- h your exact name if you don't have one yet)
+ attendance on the sign-up sheets:\n   - Student sign-up: https://docs.goo
+ gle.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit\
+ n   - Parent sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUl
+ aiYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit\n\n2. Submit Homework 12: Soil\, Im
+ pressions & Advanced Prints\n   File: Homework_12_Soil_Impressions_And_Ad
+ vanced_Prints.pdf (find it in the assignment folder: https://drive.google
+ .com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upload your com
+ pleted work to: https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGq
+ D_RSvYcMUK-VY64\n   (create a folder there with your exact name if you do
+ n't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

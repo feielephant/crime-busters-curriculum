@@ -26,8 +26,10 @@ A quick note on us as coaches: we're learning how to teach this material well al
 **Please do these things this week**
 
 1. **Accept the Google Classroom invite**, if we're using one for this team.
-2. **Add the season calendar** — attached (`CrimeBusters_Schedule.ics`). Note: as of this draft, the calendar's sign-up-sheet links are still placeholders — resend once the Sheets are created.
-3. **Fill out the attendance sign-up sheets** once they're live — links to come once the Google Sheets are created (see `curriculum/classroom/README.md`). We need **one parent volunteer at every practice**, in addition to the two of us coaching.
+2. **Add the season calendar** — attached (`CrimeBusters_Schedule.ics`).
+3. **Fill out the attendance sign-up sheets.** We need **one parent volunteer at every practice**, in addition to the two of us coaching:
+   - Student sign-up: https://docs.google.com/spreadsheets/d/1NHZH4MsKHSVGyQR9-3WolcusZPO514Lcrg60N26FGn0/edit
+   - Parent volunteer sign-up: https://docs.google.com/spreadsheets/d/1awFbIAw9GUlaiYAYOXZYZAQQaerLDQ_-hMqqjdc2dOk/edit
 
 **Where to find everything (syllabi, homework, quizzes)**
 - Syllabus (one page per class): https://drive.google.com/drive/folders/1zL53qP2ASWDxv44hLRyEN-YIxK64JdEk
