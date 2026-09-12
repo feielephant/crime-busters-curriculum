@@ -1,6 +1,6 @@
-# Quiz 1: What the Judges Actually Score
+# Quiz 3: What the Judges Actually Score
 
-*Review of Session 1. No new material. ~10 minutes.*
+*Review of Session 3. No new material. ~10 minutes.*
 
 ---
 

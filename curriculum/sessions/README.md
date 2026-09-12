@@ -23,13 +23,24 @@ demand and year 1 never covered. If your team is new to the event, you will need
 to add the year-1 basics back in — see the recap box in each script for what it
 assumes.
 
+## Reordered to match the co-coach's slide decks
+
+Sessions 1–3 were reordered/merged (Session 1 became a new pure-orientation
+session, and the former Sessions 2+3 merged into one "Powders 101" session) to
+match the "Crime Busters 101" and "Powders 101" slide decks used for the season
+kickoff. Nothing was cut — the former Session 1's forensic-reasoning content
+(Locard's principle, chain of custody, evidence types) moved to Session 3
+unchanged; the home-kit handout moved from the old Session 1 into the new
+Session 1. Sessions 4–12 are completely unaffected — same dates, same content,
+same numbers.
+
 ## Sequence
 
 | # | Session | What's new vs. year 1 |
 |---|---|---|
-| 1 | [What the Judges Actually Score](Session_01_What_The_Judges_Actually_Score.md) | Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial, and how the analysis report is scored point-by-point |
-| 2 | [Qualitative Analysis I — The Workflow](Session_02_Qualitative_Analysis_I_The_Workflow.md) | a repeatable powder-testing sequence; building and running a dichotomous key |
-| 3 | [Qualitative Analysis II — The Chemistry](Session_03_Qualitative_Analysis_II_The_Chemistry.md) | chemical formulas on demand; *why* each test works (starch–iodine, carbonate fizz, reducing-sugar tests); the harder powders |
+| 1 | [Orientation & Event Overview](Session_01_Orientation_And_Event_Overview.md) | *(NEW)* class rules, safety rules, event format, test scoring breakdown, sample-test walkthrough, season rubric, home practice kit + safety agreement handout |
+| 2 | [Powders 101 — The Workflow and the Chemistry](Session_02_Powders_101_Workflow_And_Chemistry.md) | *(merged: former Sessions 2+3)* a repeatable powder-testing sequence; building and running a dichotomous key; chemical formulas on demand; *why* each test works (starch–iodine, carbonate fizz, reducing-sugar tests); the harder powders |
+| 3 | [What the Judges Actually Score](Session_03_What_The_Judges_Actually_Score.md) | *(formerly Session 1)* Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial, and how the analysis report is scored point-by-point |
 | 4 | [Qualitative Analysis III — Mixtures & Equations](Session_04_Qualitative_Analysis_III_Mixtures_And_Equations.md) | separating mixtures; writing and balancing reactions; first look at moles and mass |
 | 5 | [Liquids & pH](Session_05_Liquids_And_pH.md) | liquid ID and formulas; "potential hydrogen"; the acid/base scale; HCl safety |
 | 6 | [Metals](Session_06_Metals.md) | density calculation and unit conversion; atomic number; reaction types; oxide layers; alloys; magnetism |
@@ -48,10 +59,12 @@ the three test sessions.
 
 ## Pacing notes
 
-- **90 minutes is the design length.** Sessions 3, 4, and 10 are the densest —
-  don't add anything to those. Sessions 1 and 8 have the most slack.
+- **90 minutes is the design length.** Sessions 2 (long by design — a genuine
+  merge, consider splitting across two meetings), 4, and 10 are the densest —
+  don't add anything extra to those. Sessions 3 and 8 have the most slack.
 - The three practice tests matter as much as the teaching sessions. Budget a full
   90 minutes each: ~50 for the test under competition conditions, ~40 for review.
-- If you lose a meeting to weather or scheduling, the safest cuts are merging
-  Session 1 into the front of Session 2, or moving Session 12's impressions
-  material into homework. Do not cut a practice test.
+- If you lose a meeting to weather or scheduling, the safest cuts are trimming
+  Session 12's impressions material into homework, or running Session 2's two
+  merged halves as one slightly-over-length meeting instead of splitting it.
+  Do not cut a practice test.

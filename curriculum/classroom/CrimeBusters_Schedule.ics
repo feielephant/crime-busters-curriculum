@@ -28,17 +28,12 @@ UID:cb-2627-class-01@crime-busters-curriculum
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260917T183000
 DTEND;TZID=America/Los_Angeles:20260917T200000
-SUMMARY:Crime Busters - Class 1: What the Judges Actually Score
+SUMMARY:Crime Busters - Class 1: Orientation & Event Overview
 LOCATION:TBD - same location as Disease Detectives? confirm
-DESCRIPTION:Locard's principle\, chain of custody\, class vs. individual e
- vidence\, direct vs. circumstantial evidence\, how the analysis report is
-  scored.\n\n(Class 1 of 15 - see the syllabus in Google Classroom.)\n\nHo
- mework 1 assigned today: What the Judges Actually Score\nFile: Homework_0
- 1_What_The_Judges_Actually_Score.pdf\nAssignment folder: https://drive.go
- ogle.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-\nSubmit your com
- pleted work (in a folder named exactly after you): https://drive.google.c
- om/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\nDue: 2 days before th
- e next class.
+DESCRIPTION:Class rules\, safety rules\, event format\, test-scoring break
+ down\, sample-test walkthrough\, season rubric\, home practice kit + safe
+ ty agreement handout. No forensic science content yet.\n\n(Class 1 of 15 
+ - see the syllabus in Google Classroom.)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -46,16 +41,19 @@ UID:cb-2627-class-02@crime-busters-curriculum
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260924T183000
 DTEND;TZID=America/Los_Angeles:20260924T200000
-SUMMARY:Crime Busters - Class 2: Qualitative Analysis I — The Workflow
+SUMMARY:Crime Busters - Class 2: Powders 101 - The Workflow and the Chemis
+ try (MERGED\, long)
 LOCATION:TBD - same location as Disease Detectives? confirm
-DESCRIPTION:A repeatable powder-testing sequence\; building and running a 
- dichotomous key.\n\n(Class 2 of 15 - see the syllabus in Google Classroom
- .)\n\nHomework 2 assigned today: Qualitative Analysis I — The Workflow\
- nFile: Homework_02_Qualitative_Analysis_I_The_Workflow.pdf\nAssignment fo
- lder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9
- Z7Cy-\nSubmit your completed work (in a folder named exactly after you): 
- https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\
- nDue: 2 days before the next class.
+DESCRIPTION:A repeatable powder-testing sequence and dichotomous keys\, pl
+ us the chemistry: formulas on demand\, why each test works (starch-iodine
+ \, carbonate fizz\, reducing-sugar)\, the harder powders.\n\n(Class 2 of 
+ 15 - see the syllabus in Google Classroom.)\n\nHomework 2 assigned today:
+  Powders 101 — The Workflow and the Chemistry\nFile: Homework_02_Powder
+ s_101_Workflow_And_Chemistry.pdf\nAssignment folder: https://drive.google
+ .com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-\nSubmit your complet
+ ed work (in a folder named exactly after you): https://drive.google.com/d
+ rive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\nDue: 2 days before the ne
+ xt class.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -63,18 +61,17 @@ UID:cb-2627-class-03@crime-busters-curriculum
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261001T183000
 DTEND;TZID=America/Los_Angeles:20261001T200000
-SUMMARY:Crime Busters - Class 3: Qualitative Analysis II — The Chemistry
-  (DENSE)
+SUMMARY:Crime Busters - Class 3: What the Judges Actually Score
 LOCATION:TBD - same location as Disease Detectives? confirm
-DESCRIPTION:Chemical formulas on demand\; why each test works (starch-iodi
- ne\, carbonate fizz\, reducing-sugar)\; the harder powders.\n\n(Class 3 o
- f 15 - see the syllabus in Google Classroom.)\n\nHomework 3 assigned toda
- y: Qualitative Analysis II — The Chemistry\nFile: Homework_03_Qualitati
- ve_Analysis_II_The_Chemistry.pdf\nAssignment folder: https://drive.google
- .com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-\nSubmit your complet
- ed work (in a folder named exactly after you): https://drive.google.com/d
- rive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\nDue: 2 days before the ne
- xt class.
+DESCRIPTION:Locard's principle\, chain of custody\, class vs. individual e
+ vidence\, direct vs. circumstantial evidence\, how the analysis report is
+  scored.\n\n(Class 3 of 15 - see the syllabus in Google Classroom.)\n\nHo
+ mework 3 assigned today: What the Judges Actually Score\nFile: Homework_0
+ 3_What_The_Judges_Actually_Score.pdf\nAssignment folder: https://drive.go
+ ogle.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-\nSubmit your com
+ pleted work (in a folder named exactly after you): https://drive.google.c
+ om/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\nDue: 2 days before th
+ e next class.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -286,17 +283,10 @@ UID:cb-2627-reminder-02@crime-busters-curriculum
 DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
-SUMMARY:📋 Reminder: submit Homework 1 + update sign-up sheets (Class 2 
- is Thursday)
+SUMMARY:📋 Reminder: update sign-up sheets (Class 2 is Thursday)
 DESCRIPTION:Before Class 2 (Thu Sep 24) this Thursday:\n\n1. Update your a
  ttendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDEN
- T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Sub
- mit Homework 1: What the Judges Actually Score\n   File: Homework_01_What
- _The_Judges_Actually_Score.pdf (find it in the assignment folder: https:/
- /drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Up
- load your completed work to: https://drive.google.com/drive/folders/1kFcf
- gxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact n
- ame if you don't have one yet)
+ T_SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -309,12 +299,12 @@ SUMMARY:📋 Reminder: submit Homework 2 + update sign-up sheets (Class 3
 DESCRIPTION:Before Class 3 (Thu Oct 1) this Thursday:\n\n1. Update your at
  tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
  _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
- it Homework 2: Qualitative Analysis I — The Workflow\n   File: Homework
- _02_Qualitative_Analysis_I_The_Workflow.pdf (find it in the assignment fo
- lder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9
- Z7Cy-)\n   Upload your completed work to: https://drive.google.com/drive/
- folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with
-  your exact name if you don't have one yet)
+ it Homework 2: Powders 101 — The Workflow and the Chemistry\n   File: H
+ omework_02_Powders_101_Workflow_And_Chemistry.pdf (find it in the assignm
+ ent folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifd
+ C_AcS9Z7Cy-)\n   Upload your completed work to: https://drive.google.com/
+ drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder ther
+ e with your exact name if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -327,12 +317,12 @@ SUMMARY:📋 Reminder: submit Homework 3 + update sign-up sheets (Class 4
 DESCRIPTION:Before Class 4 (Thu Oct 8) this Thursday:\n\n1. Update your at
  tendance on the sign-up sheets:\n   - Student sign-up: REPLACE_ME_STUDENT
  _SHEET_LINK\n   - Parent sign-up: REPLACE_ME_PARENT_SHEET_LINK\n\n2. Subm
- it Homework 3: Qualitative Analysis II — The Chemistry\n   File: Homewo
- rk_03_Qualitative_Analysis_II_The_Chemistry.pdf (find it in the assignmen
- t folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_
- AcS9Z7Cy-)\n   Upload your completed work to: https://drive.google.com/dr
- ive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there 
- with your exact name if you don't have one yet)
+ it Homework 3: What the Judges Actually Score\n   File: Homework_03_What_
+ The_Judges_Actually_Score.pdf (find it in the assignment folder: https://
+ drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-)\n   Upl
+ oad your completed work to: https://drive.google.com/drive/folders/1kFcfg
+ xD-XUN_VTZGqD_RSvYcMUK-VY64\n   (create a folder there with your exact na
+ me if you don't have one yet)
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

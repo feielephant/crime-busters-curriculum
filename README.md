@@ -64,6 +64,15 @@ and answer keys by name and says what each contributed.
 See [`curriculum/sessions/README.md`](curriculum/sessions/README.md) for the full
 sequence.
 
+**Sessions 1–3 were reordered** to match the season-kickoff slide decks used
+for this team: Session 1 is now a pure orientation session (class rules,
+safety, event overview, scoring, the home-kit handout), Session 2 merges the
+former Sessions 2+3 into one "Powders 101" session (workflow + chemistry),
+and the former Session 1's forensic-reasoning content ("What the Judges
+Actually Score") moved to Session 3. Nothing was cut — see
+`curriculum/sessions/README.md` for exactly what moved. Sessions 4–12 are
+unaffected.
+
 ## Safety
 
 The home-lab homework track uses a coach-assembled kit of **food-grade powders

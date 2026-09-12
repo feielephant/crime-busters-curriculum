@@ -23,9 +23,9 @@ START_HM = (18, 30)
 END_HM = (20, 0)
 
 HW_FILENAMES = {
-    1: "Homework_01_What_The_Judges_Actually_Score.pdf",
-    2: "Homework_02_Qualitative_Analysis_I_The_Workflow.pdf",
-    3: "Homework_03_Qualitative_Analysis_II_The_Chemistry.pdf",
+    # No key 1 - Session 1 is pure orientation, no homework assigned that week.
+    2: "Homework_02_Powders_101_Workflow_And_Chemistry.pdf",
+    3: "Homework_03_What_The_Judges_Actually_Score.pdf",
     4: "Homework_04_Qualitative_Analysis_III_Mixtures_And_Equations.pdf",
     5: "Homework_05_Liquids_And_pH.pdf",
     6: "Homework_06_Metals.pdf",
@@ -37,20 +37,21 @@ HW_FILENAMES = {
     12: "Homework_12_Soil_Impressions_And_Advanced_Prints.pdf",
 }
 HW_TITLES = {
-    1: "What the Judges Actually Score", 2: "Qualitative Analysis I — The Workflow",
-    3: "Qualitative Analysis II — The Chemistry", 4: "Qualitative Analysis III — Mixtures & Equations",
+    2: "Powders 101 — The Workflow and the Chemistry",
+    3: "What the Judges Actually Score",
+    4: "Qualitative Analysis III — Mixtures & Equations",
     5: "Liquids & pH", 6: "Metals", 7: "Hair & DNA Evidence", 8: "Fibers & Chromatography",
     9: "Plastics", 10: "Blood", 11: "Blood Spatter & Glass", 12: "Soil, Impressions & Advanced Prints",
 }
 
 # (class #, date, title, homework # assigned at THIS class (None if none), one-line description)
 CLASSES = [
-    (1,  dt.date(2026, 9, 17),  "What the Judges Actually Score",
-     1, "Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial evidence, how the analysis report is scored."),
-    (2,  dt.date(2026, 9, 24),  "Qualitative Analysis I — The Workflow",
-     2, "A repeatable powder-testing sequence; building and running a dichotomous key."),
-    (3,  dt.date(2026, 10, 1),  "Qualitative Analysis II — The Chemistry (DENSE)",
-     3, "Chemical formulas on demand; why each test works (starch-iodine, carbonate fizz, reducing-sugar); the harder powders."),
+    (1,  dt.date(2026, 9, 17),  "Orientation & Event Overview",
+     None, "Class rules, safety rules, event format, test-scoring breakdown, sample-test walkthrough, season rubric, home practice kit + safety agreement handout. No forensic science content yet."),
+    (2,  dt.date(2026, 9, 24),  "Powders 101 - The Workflow and the Chemistry (MERGED, long)",
+     2, "A repeatable powder-testing sequence and dichotomous keys, plus the chemistry: formulas on demand, why each test works (starch-iodine, carbonate fizz, reducing-sugar), the harder powders."),
+    (3,  dt.date(2026, 10, 1),  "What the Judges Actually Score",
+     3, "Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial evidence, how the analysis report is scored."),
     (4,  dt.date(2026, 10, 8),  "Qualitative Analysis III — Mixtures & Equations (DENSE)",
      4, "Separating mixtures; writing and balancing reactions; moles and mass."),
     (5,  dt.date(2026, 10, 15), "Liquids & pH",

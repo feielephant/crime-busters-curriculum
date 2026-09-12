@@ -1,4 +1,4 @@
-# Homework 1: What the Judges Actually Score
+# Homework 3: What the Judges Actually Score
 
 *Paper track. Original scenario, invitational format. Do this on your own.*
 

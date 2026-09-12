@@ -69,3 +69,9 @@ contain no PII and stay tracked normally.
 If you're picking this up fresh (new team, new coach, or `tools/_team_roster.py` is missing),
 recreate it — see `curriculum/classroom/README.md` for the exact shape it needs and the
 one-time setup checklist (Drive folder, Sheets, share links).
+
+**`tools/sync_to_drive.sh` only adds/updates files by destination filename — it never deletes.**
+If a session/quiz/homework file gets renamed (e.g. after a reorg like the Session 1-3 one),
+the old-named PDF is left behind in the Drive folder alongside the new one. After any rename,
+manually remove the stale files from the Drive folder (`Syllabus/`, `Homework /`, `quiz and
+answer key/`) — grep the Drive folder for the old filename fragments to find them.

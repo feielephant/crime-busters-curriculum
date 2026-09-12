@@ -10,11 +10,11 @@ First full timed practice test (Sessions 1-6 content) under real conditions, the
 
 ## Homework
 
-Review whatever felt shaky.
+Review whatever felt shaky
 
 ## Bring
 
-Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (3, 4, 6, 10, and all practice tests).
+Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (2, 4, 6, 10, and all practice tests).
 
 
 ---

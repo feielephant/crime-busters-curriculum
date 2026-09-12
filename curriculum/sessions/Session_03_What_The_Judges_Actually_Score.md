@@ -1,5 +1,12 @@
-# Session 1: What the Judges Actually Score
-### Crime Busters Coach Script — [~90 min]
+# Session 3: What the Judges Actually Score
+### Crime Busters Coach Script — [~75 min]
+
+> **This used to be Session 1** before Orientation (now Session 1) and Powders
+> 101 (now Session 2, a merge of the former Sessions 2+3) moved ahead of it to
+> match the co-coach's "Crime Busters 101" / "Powders 101" deck order. The
+> content below is unchanged except that the home-kit handout and safety-talk
+> segment moved to Session 1, where kits now go out on day one — see that
+> session's notes.
 
 ## Before You Start
 
@@ -9,15 +16,14 @@
   "weak," (4) lay out the five scored sections of the test and roughly what each
   is worth, and (5) write a short analysis paragraph that follows the
   culprit → evidence-with-reasons → motive → clear-the-others structure.
-- **This is a year-2 season opener.** The team has done Crime Busters before, so
-  this session is *not* a re-introduction to forensics. It's about how the event
-  is actually scored and how to think like a grader — plus handing out the home
-  practice kits.
+- **This is a year-2 curriculum session.** The team has done Crime Busters
+  before, so this session is *not* a re-introduction to forensics. It's about
+  how the event is actually scored and how to think like a grader. (The season
+  kickoff — class rules, event overview, the same scoring breakdown at a
+  higher level, and the home practice kit handout — already happened in
+  Session 1.)
 - **Materials:**
   - The Knowledge Document, Chapters 1, 2, and 18 (read them before this session).
-  - Printed **home practice kits** — one per kid (see
-    `../home_labs/Kit_Assembly_Guide.md`) — plus a copy of the **Home Lab Safety
-    Agreement** for each family.
   - Printed **Mini-Case Packet** (below) — one per kid.
   - Printed **Evidence Sorting Grid** and **Analysis Template** (below).
   - Whiteboard + markers; pens/pencils.
@@ -25,10 +31,9 @@
     or a test-exchange site) just to show them the physical format — don't work it
     today.
 - **Prep:**
-  - Assemble the home kits. This takes about an hour the first time — do it a few
-    days ahead.
   - Write the five score categories on the whiteboard before kids arrive (leave
-    the percentages blank — they'll guess).
+    the percentages blank — they'll guess; they already saw this breakdown in
+    Session 1, so this is a memory check as much as a warm-up).
   - Print everything below.
 - **Vocabulary this session:** Locard's Exchange Principle · class characteristic
   · individual characteristic · direct evidence · circumstantial evidence ·
@@ -37,8 +42,7 @@
 > **If you only have 60 minutes:** Skip the "Guess the Percentages" warm-up
 > (0:10–0:18) and go straight from the hook into the evidence-types teaching. In
 > the Mini-Case activity, do only Part A (sorting) and assign Part B (the writeup)
-> as the first homework. Keep the kit handout and the safety talk — those are
-> non-negotiable.
+> as the first homework.
 
 ---
 
@@ -61,8 +65,7 @@
   team knows how the graders hand out points and the other doesn't.
 
   So today isn't a science lesson. It's a 'how does this test actually work'
-  lesson. And at the end I'm giving each of you a kit to take home so you can
-  practice the hands-on stuff between our meetings."
+  lesson."
 
   **[ASK THE TEAM: Last year, when you finished a Crime Busters test, what part
   felt like it went the worst — the powders, the physical evidence, the writing
@@ -204,53 +207,7 @@
 
 ---
 
-### 1:05–1:20 (15 min) — The Home Practice Kit + Safety
-
-- **Goal:** every kid leaves with a kit and understands the rules; every family
-  gets the safety agreement.
-
-- **COACH SCRIPT:**
-  "Qualitative analysis is half the test and the only way to get fast at it is
-  reps. So here's a kit for each of you to keep at home.
-
-  Inside: little labeled bags of powders — all food-grade, stuff from a kitchen —
-  baking soda, cornstarch, salt, two kinds of sugar, Epsom salt, cream of tartar,
-  citric acid, chalk, sand. A dropper bottle of iodine — the same weak stuff sold
-  at the pharmacy for cuts. And a bottle of purple cabbage juice, which is a pH
-  indicator — it's literally boiled cabbage water.
-
-  From home you'll add: white vinegar, water, a magnet, some cups or a muffin
-  tin, toothpicks.
-
-  Here are the hard rules, and your parent signs a sheet saying they understand
-  them:
-  - **An adult is in the room every time. Always.**
-  - **Goggles or glasses on.**
-  - **Never taste anything** — ever, even though it's food. In the lab it's an
-    'unknown' and we never taste unknowns. That habit matters at competition
-    where the samples are *not* food.
-  - **Smell by wafting** — wave the air toward your nose, never stick your nose
-    in.
-  - **No strong chemicals, no heat, no flames at home.** The strong acid — the
-    HCl — you only ever use here, with me, in goggles. Vinegar is your home
-    stand-in and it's plenty.
-  - **Clean up completely** every time. Rinse everything, wipe the counter, wash
-    your hands. Cleanup is scored at competition, so we practice it.
-
-  The iodine stains brown — work on a paper towel, wear old clothes."
-
-- **[ACTIVITY:]** Hand each kid their kit. Have them open it, check the contents
-  against the list on the safety sheet, and read the ten rules out loud, taking
-  turns. Send the **Home Lab Safety Agreement** home — it must come back signed
-  before their first home lab (which is assigned after Session 2).
-
-- **[CHECKPOINT:]** Ask: "What are the three things that never happen at home?"
-  (Strong chemicals, heat, flames.) "What always happens?" (An adult in the room;
-  goggles on; cleanup after.)
-
----
-
-### 1:20–1:30 (10 min) — Wrap-Up & Exit Ticket
+### 1:05–1:15 (10 min) — Wrap-Up & Exit Ticket
 
 - **COACH SCRIPT:**
   "Recap of what a grader is looking for, because this is the lens for the whole
@@ -276,9 +233,8 @@
      evidence isn't enough; you note the motive but explain there's no
      supporting evidence.)*
 
-- **Homework:** Homework 1 (paper only — the full analysis writeup for a fresh
-  mini-case, plus an evidence-sorting exercise). Bring the signed safety
-  agreement next time.
+- **Homework:** Homework 3 (paper only — the full analysis writeup for a fresh
+  mini-case, plus an evidence-sorting exercise).
 
 ---
 
@@ -401,5 +357,7 @@ evidence. Graders reward you for saying exactly that.**
 - **Treating a partial result as a failed test.** The powder that fizzes *and*
   leaves residue isn't a "bad test" — it's telling you it's an insoluble
   carbonate (chalk/lime), not baking soda. Partial results are information.
-- **Forgetting the kit rules by next week.** Re-ask the "never at home / always at
-  home" questions at the start of Session 2.
+- **This session no longer hands out the home kit** — that happens in Session
+  1 now, so home labs are already underway by the time the team reaches this
+  session. If a kid's safety agreement still isn't signed, chase it down
+  before assigning any further home labs.

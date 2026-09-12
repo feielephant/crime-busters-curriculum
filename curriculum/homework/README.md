@@ -1,6 +1,12 @@
 # Homework
 
-Homework_01 … Homework_12 are one take-home set per teaching session.
+Homework_02 … Homework_12 are one take-home set per teaching session — **no
+Homework_01**, since Session 1 is pure orientation with no testable science
+content yet. **Homework_02 is a merge** (former Homework 2 + Homework 3),
+matching Session 2's merge into "Powders 101," pairing with both Home Lab 2
+and Home Lab 3. Homework_03 covers what used to be Session 1's content
+("What the Judges Actually Score"), now taught in Session 3.
+
 **Homework_13 and Homework_14** are "general knowledge" sweeps not tied to a
 single session — they cover the loose short-answer items that fill the
 "general knowledge / junior detective" section of real invitational tests (flame
@@ -29,9 +35,9 @@ whose parent has signed the
 
 | Session | Paper track | Home-lab track |
 |---|---|---|
-| 1 | Analysis-report writing + evidence sorting | — |
-| 2 | Dichotomous-key reading & building | Lab 02 — the powder workflow, 4 knowns |
-| 3 | Formula matching + test-mechanism short answer | Lab 03 — starch & carbonate tests |
+| 1 | *(none — orientation session)* | — |
+| 2 | Dichotomous-key reading & building + formula matching + test-mechanism short answer | Lab 02 — the powder workflow, 4 knowns; **and** Lab 03 — starch & carbonate tests |
+| 3 | Analysis-report writing + evidence sorting | — |
 | 4 | Balancing equations + mixture logic | Lab 04 — separating a 2-powder mixture |
 | 5 | Liquid ID from clues + pH scale | Lab 05 — cabbage-indicator pH ladder |
 | 6 | Density & unit-conversion problems | — (metals kit not sent home) |

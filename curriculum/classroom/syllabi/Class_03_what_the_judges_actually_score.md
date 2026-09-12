@@ -1,6 +1,6 @@
-# Class 1 Syllabus — What the Judges Actually Score
+# Class 3 Syllabus — What the Judges Actually Score
 
-**Date:** Thu Sep 17, 2026 &nbsp;|&nbsp; **Time:** 6:30–8:00 PM &nbsp;|&nbsp; **Curriculum Session 1 of 12**
+**Date:** Thu Oct 1, 2026 &nbsp;|&nbsp; **Time:** 6:30–8:00 PM &nbsp;|&nbsp; **Curriculum Session 3 of 12**
 
 ---
 
@@ -14,16 +14,16 @@ Locard's exchange principle, chain of custody, class evidence, individual eviden
 
 ## Homework
 
-**Homework 1** — do it on your own before the next class. (The matching **Quiz 1** in https://drive.google.com/drive/folders/1LVjy-7orOI-Fb46sJNIbsAY5BMnBSP5l is a lighter review you can also use — the answer key gets posted there separately after class.)
+**Homework 3** — do it on your own before the next class. (The matching **Quiz 3** in https://drive.google.com/drive/folders/1LVjy-7orOI-Fb46sJNIbsAY5BMnBSP5l is a lighter review you can also use — the answer key gets posted there separately after class.)
 
 
-- File: **Homework_01_What_The_Judges_Actually_Score.pdf**
+- File: **Homework_03_What_The_Judges_Actually_Score.pdf**
 - Assignment folder: https://drive.google.com/drive/folders/1NI5NIlzFHgo9gZDCs4ifdC_AcS9Z7Cy-
 - Submit your completed work (in a folder named exactly after you): https://drive.google.com/drive/folders/1kFcfgxD-XUN_VTZGqD_RSvYcMUK-VY64
 
 ## Bring
 
-Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (3, 4, 6, 10, and all practice tests).
+Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (2, 4, 6, 10, and all practice tests).
 
 
 ---

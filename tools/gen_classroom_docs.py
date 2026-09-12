@@ -33,9 +33,9 @@ except ImportError:
 # Exact filenames as they'd be uploaded to the homework-assignments Drive folder,
 # matching curriculum/pdf/homework/*.pdf (student version, not the _KEY one).
 HW_FILENAMES = {
-    1: "Homework_01_What_The_Judges_Actually_Score.pdf",
-    2: "Homework_02_Qualitative_Analysis_I_The_Workflow.pdf",
-    3: "Homework_03_Qualitative_Analysis_II_The_Chemistry.pdf",
+    # No key 1 - Session 1 is pure orientation, no homework assigned that week.
+    2: "Homework_02_Powders_101_Workflow_And_Chemistry.pdf",
+    3: "Homework_03_What_The_Judges_Actually_Score.pdf",
     4: "Homework_04_Qualitative_Analysis_III_Mixtures_And_Equations.pdf",
     5: "Homework_05_Liquids_And_pH.pdf",
     6: "Homework_06_Metals.pdf",
@@ -47,9 +47,8 @@ HW_FILENAMES = {
     12: "Homework_12_Soil_Impressions_And_Advanced_Prints.pdf",
 }
 HW_TITLES = {
-    1: "What the Judges Actually Score",
-    2: "Qualitative Analysis I — The Workflow",
-    3: "Qualitative Analysis II — The Chemistry",
+    2: "Powders 101 — The Workflow and the Chemistry",
+    3: "What the Judges Actually Score",
     4: "Qualitative Analysis III — Mixtures & Equations",
     5: "Liquids & pH",
     6: "Metals",
@@ -63,17 +62,17 @@ HW_TITLES = {
 
 # 15 class slots: (n, date_long, date_short, kind, session_no, title, blurb, vocab, homework, tournament)
 CLASSES = [
-    (1,  "Thu Sep 17, 2026", "9/17", "lesson", 1, "What the Judges Actually Score",
+    (1,  "Thu Sep 17, 2026", "9/17", "orientation", 1, "Orientation & Event Overview",
+     "Class rules, safety rules, event format (teams of 2, 50-min clock, evidence categories), test-scoring breakdown, a sample-test walkthrough, the season rubric (homework 40% / quizzes+tests 40% / attendance+performance 20%), and the home practice kit + Home Lab Safety Agreement handout. No forensic science content yet — that starts next class.",
+     "—",
+     "None yet — the first academic homework starts with Session 2. Just get the Home Lab Safety Agreement signed and returned.", None),
+    (2,  "Thu Sep 24, 2026", "9/24", "lesson", 2, "Powders 101 — The Workflow and the Chemistry",
+     "MERGED DOUBLE SESSION — a repeatable powder-testing sequence and dichotomous keys, plus the chemistry underneath: chemical formulas on demand, why each test actually works (starch-iodine, carbonate fizz, reducing-sugar tests), and the harder powders.",
+     "qualitative analysis, dichotomous key, powder ID workflow, chemical formulas, starch-iodine test, carbonate fizz test, reducing sugar test",
+     "Homework 2", None),
+    (3,  "Thu Oct 1, 2026",  "10/1", "lesson", 3, "What the Judges Actually Score",
      "Locard's principle, chain of custody, class vs. individual evidence, direct vs. circumstantial evidence, and how the written analysis report is scored point-by-point.",
      "Locard's exchange principle, chain of custody, class evidence, individual evidence, direct evidence, circumstantial evidence",
-     "Homework 1", None),
-    (2,  "Thu Sep 24, 2026", "9/24", "lesson", 2, "Qualitative Analysis I — The Workflow",
-     "A repeatable powder-testing sequence; building and running a dichotomous key to identify an unknown powder.",
-     "qualitative analysis, dichotomous key, powder ID workflow",
-     "Homework 2", None),
-    (3,  "Thu Oct 1, 2026",  "10/1", "lesson", 3, "Qualitative Analysis II — The Chemistry",
-     "DENSE SESSION — chemical formulas on demand; why each test actually works (starch-iodine, carbonate fizz, reducing-sugar tests); the harder powders.",
-     "chemical formulas, starch-iodine test, carbonate fizz test, reducing sugar test",
      "Homework 3", None),
     (4,  "Thu Oct 8, 2026",  "10/8", "lesson", 4, "Qualitative Analysis III — Mixtures & Equations",
      "DENSE SESSION — separating mixtures; writing and balancing chemical reactions; a first look at moles and mass.",
@@ -161,8 +160,9 @@ def course_overview():
     lines.append("## The 15 class dates\n")
     lines.append("| Class | Date | Focus |")
     lines.append("|---|---|---|")
+    KIND_TAGS = {"lesson": "", "testprep": " *(practice test)*", "orientation": " *(orientation)*"}
     for (n, dl, ds, kind, sn, title, *_rest) in CLASSES:
-        tag = "" if kind == "lesson" else " *(practice test)*"
+        tag = KIND_TAGS.get(kind, "")
         lines.append(f"| {n} | {dl} | {title}{tag} |")
     for d, why in [("Thu Nov 26, 2026", "Thanksgiving"), ("Thu Dec 24, 2026", "Christmas Eve"), ("Thu Dec 31, 2026", "New Year's Eve")]:
         lines.append(f"| — | ~~{d}~~ | **NO CLASS — {why}** |")
@@ -221,7 +221,8 @@ def syllabus(c):
     (n, dl, ds, kind, sn, title, blurb, vocab, hw, tourn) = c
     lines = []
     lines.append(f"# Class {n} Syllabus — {title}\n")
-    tagname = f"**Curriculum Session {sn} of 12**" if kind == "lesson" else "**Practice-test session**"
+    TAGNAMES = {"lesson": f"**Curriculum Session {sn} of 12**", "testprep": "**Practice-test session**", "orientation": "**Orientation — season kickoff**"}
+    tagname = TAGNAMES.get(kind, f"**Curriculum Session {sn} of 12**")
     lines.append(f"**Date:** {dl} &nbsp;|&nbsp; **Time:** 6:30–8:00 PM &nbsp;|&nbsp; {tagname}")
     if tourn:
         lines.append(f"\n> \U0001f3c6 **Coming up:** {tourn}")
@@ -232,15 +233,15 @@ def syllabus(c):
         lines.append("## Key vocabulary\n")
         lines.append(vocab + "\n")
     lines.append("## Homework\n")
-    if kind == "testprep":
-        lines.append(f"{hw}.\n")
+    if kind in ("testprep", "orientation") or hw is None:
+        lines.append(f"{hw or 'None yet.'}\n")
     else:
         lines.append(f"**{hw}** — do it on your own before the next class. (The matching **Quiz {sn}** in {QUIZ_URL} is a lighter review you can also use — the answer key gets posted there separately after class.)\n")
         lines.append(f"\n- File: **{HW_FILENAMES[sn]}**")
         lines.append(f"- Assignment folder: {HOMEWORK_ASSIGNMENTS_URL}")
         lines.append(f"- Submit your completed work (in a folder named exactly after you): {HOMEWORK_SUBMIT_URL}\n")
     lines.append("## Bring\n")
-    lines.append("Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (3, 4, 6, 10, and all practice tests).\n")
+    lines.append("Safety goggles and an apron/old clothes — most weeks involve a hands-on lab station. Bring a non-graphing calculator on math-heavy weeks (2, 4, 6, 10, and all practice tests).\n")
     lines.append("\n---\n")
     lines.append("*Part of the Crime Busters (Division B) 2026–27 season. Full course overview and all 15 class syllabi are posted in Google Classroom.*\n")
     return "\n".join(lines) + "\n"
