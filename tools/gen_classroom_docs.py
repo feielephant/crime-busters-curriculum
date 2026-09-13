@@ -143,6 +143,7 @@ def course_overview():
     lines.append("## Key links\n")
     lines.append("| What | Link |")
     lines.append("|---|---|")
+    lines.append(f"| Everything in one place (official Google Classroom Drive folder) | {CLASSROOM_DRIVE_URL} |")
     lines.append(f"| Syllabus (all 15 classes) | {SYLLABUS_URL} |")
     lines.append(f"| Homework assignments (read/download) | {HOMEWORK_ASSIGNMENTS_URL} |")
     lines.append(f"| Submit completed homework (upload to your own named folder) | {HOMEWORK_SUBMIT_URL} |")

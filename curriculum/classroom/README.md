@@ -4,30 +4,30 @@ Mirrors the sibling `Disease-Detectives-Curriculum` repo's `curriculum/classroom
 Everything here is written to be posted to Google Classroom for the Crime Busters students
 and parents.
 
-## Still needs the coach to do (placeholders in the generated files until then)
+## Setup status
 
-Unlike Disease Detectives, this team's Drive/Sheets/Classroom infrastructure is brand new —
-these still need to be created, then the placeholder URLs below need to be filled in:
+As of 2026-09-12, everything lives in the **official school-created Google Classroom Drive
+folder**, `Classroom/Crime Busters CRIME` (migrated there from an earlier personal
+`CrimeBuster 2026-2027` folder — same file/folder IDs, so all links below kept working
+across the move). `Syllabus/`, `Homework /`, `Homework upload/`, and `quiz and answer key/`
+live directly inside it, along with the calendar, course overview, and both sign-up sheets.
 
-1. **Get the shareable link** for the `CrimeBuster 2026-2027` Drive folder (already created,
-   with `Syllabus/`, `Homework /`, `Homework upload/`, and `quiz and answer key/` subfolders
-   inside it) — right-click the folder in Drive → Share → copy link. Put it in
-   `CLASSROOM_DRIVE_URL` in `tools/_team_roster.py`.
-2. **Create two Google Sheets** for attendance sign-up (student + parent). The PDF sign-up
-   didn't work out, so skip that — `students_signup.csv` and `parents_signup.csv` are already
-   sitting at the top level of the `CrimeBuster 2026-2027` Drive folder: right-click each →
-   **Open with → Google Sheets** → **File → Save as Google Sheets** → select the `FALSE` cells
-   → **Insert → Checkbox** → **Share → Anyone with the link → Editor**. Put the two resulting
-   links in `STUDENT_SIGNUP_URL` / `PARENT_SIGNUP_URL` in `tools/_team_roster.py`.
-3. **Get a shareable link for `Homework /`** (assignments, read-only) and for
-   `Homework upload/` (submissions) specifically, and put them in
-   `HOMEWORK_ASSIGNMENTS_URL` / `HOMEWORK_SUBMIT_URL` in `tools/_team_roster.py`.
-4. **Confirm the practice location** — currently "TBD - same location as Disease Detectives?
-   confirm" — fix the `LOCATION` constant in `tools/_team_roster.py`.
-5. **Confirm the tournament dates** — the calendar currently assumes Crime Busters attends the
+**Done:** `CLASSROOM_DRIVE_URL`, `HOMEWORK_ASSIGNMENTS_URL`, `HOMEWORK_SUBMIT_URL`,
+`SYLLABUS_URL`, `QUIZ_URL`, `STUDENT_SIGNUP_URL`, and `PARENT_SIGNUP_URL` are all real values
+in `tools/_team_roster.py` now — not placeholders.
+
+**Still open:**
+1. **Confirm the practice location** — currently assumed to be Ocean Air PTA Room (same as
+   the Disease Detectives team, same coach) but not actually confirmed. Fix the `LOCATION`
+   constant in `tools/_team_roster.py` if wrong.
+2. **Confirm the tournament dates** — the calendar currently assumes Crime Busters attends the
    exact same 4 tournaments as the Disease Detectives team (same Division B competitions
    likely host both events, but this hasn't been confirmed). Fix `TOURNAMENTS_OVERVIEW` in
    `tools/_team_roster.py` and the `TOURNAMENTS` list in `tools/build_calendar.py` if wrong.
+3. **Clean up two orphaned duplicate Sheets** left behind in the old `CrimeBuster 2026-2027`
+   folder (`parents_signup (1).gsheet` and `parents_signup (2).gsheet`) — extra Sheets created
+   from repeat CSV imports, not referenced anywhere; safe to delete after a quick look, or keep
+   if either turns out to have real data in it.
 
 **All of the real data above (`tools/_team_roster.py`) is gitignored — this repo is public.**
 If it's ever missing (fresh clone, new machine), recreate it; the required shape is at the top
@@ -56,5 +56,5 @@ The Markdown files here are the source of truth. Regenerate with:
 - `tools/build_classroom_pdfs.sh` — Course Overview, sign-up sheet, and the 15 syllabus PDFs
 - `tools/build_fillable_signup.py` — the fillable-checkbox PDF
 - `tools/build_calendar.py` — `CrimeBusters_Schedule.ics`
-- `tools/sync_to_drive.sh` — copies anything new/changed into the mapped `CrimeBuster 2026-2027`
+- `tools/sync_to_drive.sh` — copies anything new/changed into the mapped `Crime Busters CRIME`
   Drive folder (see the repo's `CLAUDE.md`)
